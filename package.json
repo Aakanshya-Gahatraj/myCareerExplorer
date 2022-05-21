@@ -1,15 +1,29 @@
 {
   "name": "mycareerexplorer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^4.6.0",
     "puppeteer": "^13.7.0"
-  }
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakanshya-Gahatraj/myCareerExplorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aakanshya-Gahatraj/myCareerExplorer/issues"
+  },
+  "homepage": "https://github.com/Aakanshya-Gahatraj/myCareerExplorer#readme",
+  "description": ""
 }
