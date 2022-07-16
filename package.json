@@ -2,8 +2,11 @@
   "name": "mycareerexplorer",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node root\\script\\index.js"
+    "start-webscrapper": "node root\\script\\index.js",
+    "start-admin": "node root\\server\\adminRouter.js",
+    "start-api": "nodemon root\\server\\restAPI.js"
   },
   "keywords": [],
   "author": "",
@@ -14,12 +17,14 @@
     "admin-bro": "^4.0.1",
     "admin-bro-expressjs": "^2.1.1",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-formidable": "^1.2.0",
     "express-session": "^1.17.3",
     "mongodb": "^4.6.0",
     "mongoose": "^6.3.5",
     "node-cron": "^3.0.1",
+    "node-fetch": "^3.2.8",
     "nodemon": "^2.0.18",
     "puppeteer": "^13.7.0",
     "tslib": "^2.4.0"

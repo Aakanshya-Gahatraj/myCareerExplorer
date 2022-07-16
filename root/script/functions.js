@@ -88,8 +88,7 @@ const dataFromJobLink = async ({ links, browser }) => {
           });
         }
       } catch (error) {
-        console.log("*");
-        // console.log(error);
+        process.stdout.write("*");
       }
       await newPage.close();
     }

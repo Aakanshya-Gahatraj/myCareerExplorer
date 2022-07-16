@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 const AdminBro = require("admin-bro");
 const AdminBroExpress = require("@admin-bro/express");
-const { jobModel, companyModel, JobModel } = require("../script/dbSchemaModel");
+const { jobModel, companyModel } = require("../script/dbSchemaModel");
 const AdminBroMongoose = require("@admin-bro/mongoose");
 const mongoose = require("mongoose");
 const express = require("express");

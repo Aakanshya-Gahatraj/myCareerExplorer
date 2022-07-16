@@ -7,8 +7,8 @@ const path = require("path");
 
 const getPath = (filename) => path.resolve(__dirname, filename);
 const main = async () => {
-  // const jobsURL = "https://merojob.com/search/?q=&page=1";
-  // const companyURL = "https://merojob.com/company/";
+  const jobsURL = "https://merojob.com/search/?q=&page=1";
+  const companyURL = "https://merojob.com/company/";
 
   const browser = await puppeteer.launch({ headless: true }); // initiating browser
 
@@ -19,11 +19,11 @@ const main = async () => {
   });
 
   links.splice(links.length - 1, 1);
-  try {
-    fs.writeFileSync(getPath("joblinks.json"), JSON.stringify(links, null, 2));
-  } catch (error) {
-    console.log(error);
-  }
+  // try {
+  //   fs.writeFileSync(getPath("joblinks.json"), JSON.stringify(links, null, 2));
+  // } catch (error) {
+  //   console.log(error);
+  // }
   // --------
   // console.log({ links });
 
@@ -85,4 +85,7 @@ const main = async () => {
 
   await browser.close();
 };
-// main();
+main();
+
+// const cron = require("node-cron");
+// cron.schedule("0 5 * * 0", main(), { timezone: "Asia/Kathmandu" });
