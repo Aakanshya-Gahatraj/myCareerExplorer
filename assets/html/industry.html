@@ -9,9 +9,10 @@
     <script>
       // adding key to the url params
       function changeRouteWithParam(route, params = {}) {
-        const queryParams = Object.keys(params)
-          .map((key) => `${key}=${params[key]}`)
-          .join("&");
+        const queryParams = Object.keys(params).map(
+          (key) => `${key}=${String(params[key]).replace(/&/g, "%26")}`
+        );
+        console.log({ queryParams });
         window.location.href = `${route}?${queryParams}`;
       }
     </script>
