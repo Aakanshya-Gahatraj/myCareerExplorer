@@ -172,7 +172,7 @@ footer {
   margin-left: 80%;
 }
 
-/* Industry Page */
+/* Other Pages */
 
 .navBar ul {
   display: flex;
@@ -191,7 +191,7 @@ footer {
   list-style-type: none;
 }
 
-.red-button {
+.button {
   border: none;
   padding: 10px 13px;
   border-radius: 20px;
@@ -201,7 +201,20 @@ footer {
   font-size: 14.5px;
   width: 120px;
   height: 40px;
+}
+
+._red {
   background: rgb(221, 65, 62);
+}
+
+._brown {
+  background-color: rgb(87, 47, 28);
+  padding-left: 23px;
+}
+
+._blue {
+  background: rgb(56, 106, 199);
+  padding-left: 23px;
 }
 
 .grid-container {
@@ -252,6 +265,34 @@ footer {
 }
 
 .grid-item:hover {
+  cursor: pointer;
+  background: rgba(161, 160, 160, 0.2);
+}
+
+.circle-grid-container {
+  margin: 3rem 4rem;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(
+    8,
+    100px
+  ); /*Make the grid smaller than the container*/
+  column-gap: 10px;
+  row-gap: 50px;
+}
+
+.circle-item {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.circle-item:hover {
   cursor: pointer;
   background: rgba(161, 160, 160, 0.2);
 }

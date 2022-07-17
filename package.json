@@ -2,7 +2,6 @@
   "name": "mycareerexplorer",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start-webscrapper": "node root\\script\\index.js",
     "start-admin": "node root\\server\\adminRouter.js",
