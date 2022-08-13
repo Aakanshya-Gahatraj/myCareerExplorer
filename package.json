@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start-webscrapper": "node root\\script\\index.js",
-    "start-admin": "node root\\server\\adminRouter.js",
-    "start-api": "nodemon root\\server\\restAPI.js"
+    "start-webscrapper": "node backend\\script\\index.js",
+    "start-admin": "node backend\\server\\adminRouter.js",
+    "start-api": "nodemon backend\\server\\restAPI.js"
   },
   "keywords": [],
   "author": "",

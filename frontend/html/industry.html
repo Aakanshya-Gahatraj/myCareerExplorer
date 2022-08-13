@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCareerExplorer</title>
+    <link rel="stylesheet" href="..\css\main.css" />
+    <script>
+      // adding key to the url params
+      function changeRouteWithParam(route, params = {}) {
+        const queryParams = Object.keys(params).map(
+          (key) => `${key}=${String(params[key]).replace(/&/g, "%26")}`
+        );
+        console.log({ queryParams });
+        window.location.href = `${route}?${queryParams}`;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="navBar">
+      <ul>
+        <li>
+          <img
+            src="..\img\icon-back.png"
+            onclick="window.location.href='index.html'"
+          />
+        </li>
+        <li class="_red button">Job Industry</li>
+      </ul>
+    </div>
+    <div class="grid-container">
+      <div
+        class="grid-item"
+        id="Banking / Insurance /Financial Services"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Banking / Insurance /Financial Services
+      </div>
+      <div
+        class="grid-item"
+        id="Accounting / Finance"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Accounting / Finance
+      </div>
+      <div
+        class="grid-item"
+        id="Construction / Engineering / Architects"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Construction / Engineering / Architects
+      </div>
+      <div
+        class="grid-item"
+        id="Creative / Graphics / Designing"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Creative / Graphics / Designing
+      </div>
+      <div
+        class="grid-item"
+        id="General Mgmt. / Administration / Operations   "
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        General Mgmt. / Administration / Operations
+      </div>
+      <div
+        class="grid-item"
+        id="Healthcare / Pharma / Biotech / Medical / R&D"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Healthcare / Pharma / Biotech / Medical / R&D
+      </div>
+      <div
+        class="grid-item"
+        id="IT & Telecommunication"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        IT & Telecommunication
+      </div>
+      <div
+        class="grid-item"
+        id="Journalism / Editor / Media"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Journalism / Editor / Media
+      </div>
+      <div
+        class="grid-item"
+        id="Marketing / Advertising / Customer Service"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Marketing / Advertising / Customer Service
+      </div>
+      <div
+        class="grid-item"
+        id="NGO / INGO / Social work"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        NGO / INGO / Social work
+      </div>
+      <div
+        class="grid-item"
+        id="Teaching / Education"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Teaching / Education
+      </div>
+      <div
+        class="grid-item"
+        id="Others"
+        onclick="changeRouteWithParam('jobs.html', {industry: id})"
+      >
+        Others
+      </div>
+    </div>
+  </body>
+</html>
