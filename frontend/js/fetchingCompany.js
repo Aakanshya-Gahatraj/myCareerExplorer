@@ -10,7 +10,7 @@ function getCompanyData() {
 async function showData() {
   const jobsContainer = document.querySelector(".circle-grid-container");
   const data = await getCompanyData();
-  // console.log({ data });
+  console.log({ data });
   data.forEach((element) => {
     if (element.logo) {
       const jobElement = document.createElement("img");

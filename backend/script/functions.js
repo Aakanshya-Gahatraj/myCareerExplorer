@@ -1,4 +1,9 @@
+/* eslint-disable no-unused-vars */
+// @ts-check
+
 // Functions used in index.js
+
+const e = require("express");
 
 // Job Links Extraction (Pagination Handled) ----------------------------------------------------
 
@@ -212,7 +217,6 @@ const dbforCompanies = async (mongoose, fs, getPath) => {
   try {
     await mongoose.connect("mongodb://localhost:27017/myDB"); // db connect
     const { Schema, model } = mongoose;
-
     const companyInfoSchema = new Schema(
       {
         companyName: String,
@@ -223,19 +227,34 @@ const dbforCompanies = async (mongoose, fs, getPath) => {
       { collection: "companyInformation", timestamps: true, unique: true }
     );
 
-    // eslint-disable-next-line new-cap
+    // eslint-disable-next-line new-cap, no-unused-vars
     const companyInfo = new model("companyInformation", companyInfoSchema);
 
     const companyData = fs.readFileSync(getPath("compData.json"));
     const data = JSON.parse(companyData);
-    companyInfo
-      .insertMany(data)
-      .then(function () {
-        console.log("Company Data Inserted to DB"); // Success
-      })
-      .catch(function (error) {
-        console.log(error); // Failure
+    const dataName = data.map((el) => el.companyName);
+    console.log({ "length: ": data.length });
+
+    for await (const name of dataName) {
+      const res = await companyInfo.findOne({
+        companyName: name,
       });
+      if (!res) {
+        console.log("new data");
+        const newCompanyInfoIdx = Array.from(dataName).findIndex(
+          (el) => String(el).toLowerCase() == String(name).toLowerCase()
+        );
+
+        if (newCompanyInfoIdx >= 0) {
+          console.log("value", data[newCompanyInfoIdx], newCompanyInfoIdx);
+          companyInfo.create(data[newCompanyInfoIdx]).then(function () {
+            console.log("Company Data Inserted to DB"); // Success
+          });
+        }
+      } else {
+        console.log("pre-existing data");
+      }
+    }
   } catch (error) {
     console.log("Couldn't connect to database.\n" + error);
   }

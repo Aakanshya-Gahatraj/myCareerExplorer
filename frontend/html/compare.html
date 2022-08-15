@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCareerExplorer | Search</title>
+    <link rel="stylesheet" href="..\css\main.css" />
+  </head>
+  <body>
+    <div class="navBar">
+      <ul>
+        <li>
+          <img
+            src="..\img\icon-back.png"
+            onclick="window.location.href='index.html'"
+          />
+        </li>
+        <!-- <li class="_red button">Compare</li> -->
+      </ul>
+    </div>
+    <div class="cardCon">
+      <h3>Compare Jobs</h3>
+      <h5 style="margin-left:2rem;">Compare jobs from our job profiles.</h5>
+      <div class="card">
+        <h5>Type in two jobs to compare:</h5>
+        <form id="compare-form" >
+            <div class="form-inputs">
+            <input type="text" name="job1" placeholder="Job Name" class="input-width">
+            <h5 style="margin: 0.5rem 1.5rem">V/S</h5>
+            <input type="text" name="job2" placeholder="Job Name" class="input-width">
+            <h5 style="margin: 0.5rem 1.5rem">on</h5>
+            <select id="criteria" class="input-width" name="criteria">
+              <option value="desc">Description</option>
+              <option value="vac">No of Vacancies</option>
+              <option value="skills">Key Skills</option>
+              <option value="edu">Educational Requirement</option>
+            </select>
+            </div>
+            <button type="submit" id="compare-button">Compare</button>
+        </form>
+        <div class="comparison-card"></div>
+
+    </div>
+   <script src="..\js\compare.js"></script>
+  </body>
+</html>
