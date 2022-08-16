@@ -1,5 +1,5 @@
 /* eslint-disable require-jsdoc */
-
+const API = "http://localhost:3000";
 const companyInfodata = JSON.parse(sessionStorage.getItem("companyData"));
 
 window.onload = () => {
@@ -29,4 +29,17 @@ async function showData(companyDetail) {
   paragraph.innerHTML = `${companyDetail.about}`;
   const viewJobs = document.querySelector("h4");
   viewJobs.id = `${companyDetail.companyName}`;
+}
+
+// const compViewJobsCta = document.querySelector(".compInfoCta");
+// console.log("hello", compViewJobsCta);
+// compViewJobsCta.addEventListener("click", () => {
+//   console.log("clicked");
+// });
+// eslint-disable-next-line no-unused-vars
+async function viewJobs(companyName) {
+  const res = await fetch(`${API}/company/${companyName}`);
+  const jobsData = await res.json();
+  console.log("jobsdata", jobsData);
+  // use selectors to get the container and show the jobs data
 }

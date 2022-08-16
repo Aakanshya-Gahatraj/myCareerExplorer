@@ -92,7 +92,7 @@ const run = async () => {
   });
 
   app.get("/company/:companyName", async (req, res) => {
-    const companyName = req.params.company_name;
+    const companyName = req.params.companyName;
     const getJobsFromCompany = await jobModel.find({
       companyName: companyName,
     });
@@ -106,25 +106,25 @@ const run = async () => {
   app.get("/location", async (req, res) => {
     try {
       const getLocationData = await jobModel.find({});
-      // console.log(getLocationData.count());
+      console.log(getLocationData.length);
       res.send(getLocationData);
     } catch (e) {
       res.status(400).send(e);
     }
   });
 
-  app.get("/location/:location", async (req, res) => {
-    const location = req.params.location;
-    try {
-      const getLocationData = await jobModel.find({
-        location: { $regex: new RegExp(".*" + location + ".*", "i") },
-      });
-      // console.log(getLocationData.count());
-      res.send(getLocationData);
-    } catch (e) {
-      res.status(400).send(e);
-    }
-  });
+  // app.get("/location/:location", async (req, res) => {
+  //   const location = req.params.location;
+  //   try {
+  //     const getLocationData = await jobModel.find({
+  //       location: { $regex: new RegExp(".*" + location + ".*", "i") },
+  //     });
+  //     console.log(getLocationData);
+  //     res.send(getLocationData);
+  //   } catch (e) {
+  //     res.status(400).send(e);
+  //   }
+  // });
 
   // Needed for post
   app.use(bodyParser.json());
@@ -132,7 +132,6 @@ const run = async () => {
   app.post("/compare", async (req, res) => {
     try {
       console.log(req.body);
-      // console.log(req.body.job1.value);
       const job1 = req.body.job1;
       const job2 = req.body.job2;
       const job1Pipeline = jobModel.aggregate([

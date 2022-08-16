@@ -261,9 +261,9 @@ footer {
   border-radius: 20px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
   color: white;
-  padding-right: 2rem;
+  padding: 0 3rem;
 }
 
 .jobs-grid-item:hover {
@@ -271,9 +271,6 @@ footer {
   background: rgba(161, 160, 160, 0.2);
 }
 
-.jobs-contents {
-  padding-left: 4rem;
-}
 .vac {
   display: flex;
   align-items: center;
@@ -486,4 +483,35 @@ footer {
   text-shadow: #f5f5f5 0 1px 0;
   opacity: 0.9;
   position: absolute;
+}
+
+/* Location Page */
+
+.puzzle-grid-container {
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.puzzle-grid-item {
+  height: 6rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.puzzle-grid-item:hover {
+  cursor: pointer;
+  background: rgba(161, 160, 160, 0.2);
+}
+
+.item1 {
+  grid-row: 1 / span 2;
+}
+
+.item2 {
+  grid-column: 2 / span 2;
 }
