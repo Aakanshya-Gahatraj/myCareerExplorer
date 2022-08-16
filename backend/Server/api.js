@@ -91,10 +91,13 @@ const run = async () => {
     }
   });
 
-  app.get("/company/:location", async (req, res) => {
+  app.get("/company/:companyName", async (req, res) => {
+    const companyName = req.params.company_name;
+    const getJobsFromCompany = await jobModel.find({
+      companyName: companyName,
+    });
     try {
-      const getCompanyData = await companyModel.find({});
-      res.send(getCompanyData);
+      res.send(getJobsFromCompany);
     } catch (e) {
       res.status(400).send(e);
     }
