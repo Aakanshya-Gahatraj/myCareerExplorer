@@ -18,6 +18,7 @@ const run = async () => {
   const connection = await mongoose.connect("mongodb://localhost:27017/myDB", {
     useNewUrlParser: true,
   });
+
   const adminBro = new AdminBro({
     databases: [connection],
     resources: [
@@ -103,10 +104,13 @@ const run = async () => {
     }
   });
 
-  app.get("/location", async (req, res) => {
+  app.get("/location/:location", async (req, res) => {
     try {
-      const getLocationData = await jobModel.find({});
-      console.log(getLocationData.length);
+      const getLocationData = await jobModel.find({
+        $text: { $search: "kathmandu" },
+      });
+      console.log(getLocationData);
+      // console.log(getLocationData.length);
       res.send(getLocationData);
     } catch (e) {
       res.status(400).send(e);
