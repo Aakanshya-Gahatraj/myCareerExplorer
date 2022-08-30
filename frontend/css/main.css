@@ -88,7 +88,7 @@ nav ul a.active {
   font-size: medium;
 }
 
-.search-bar {
+#search-bar {
   width: 100%;
   max-width: 700px;
   background: rgba(255, 255, 255, 0.2);
@@ -98,7 +98,7 @@ nav ul a.active {
   align-items: center;
 }
 
-.search-bar input {
+#search-bar input {
   background: transparent;
   flex: 1;
   border: 0;
@@ -113,7 +113,7 @@ nav ul a.active {
   font-size: 14px;
 }
 
-.search-bar button {
+#search-bar button {
   border: 0;
   border-radius: 50%;
   width: 65px;
@@ -122,11 +122,11 @@ nav ul a.active {
   cursor: pointer;
 }
 
-.search-bar button:hover {
+#search-bar button:hover {
   background-color: #221735;
 }
 
-.search-bar button img {
+#search-bar button img {
   height: 30px;
   width: 30px;
 }
@@ -164,6 +164,11 @@ nav ul a.active {
   background-color: rgb(35, 74, 148);
   cursor: pointer;
 }
+
+.reddish {
+  background-color: rgb(245, 79, 29);
+}
+
 footer {
   color: white;
   font-size: smaller;
@@ -201,22 +206,32 @@ footer {
   text-decoration: none;
   font-weight: bold;
   font-size: 14.5px;
-  width: 120px;
+  max-width: 60rem;
   height: 40px;
 }
 
 ._red {
   background: rgb(221, 65, 62);
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 ._brown {
   background-color: rgb(87, 47, 28);
   padding-left: 23px;
+  padding-right: 23px;
 }
 
 ._blue {
   background: rgb(56, 106, 199);
   padding-left: 23px;
+  padding-right: 23px;
+}
+
+._pink {
+  background: rgb(209, 3, 75);
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 /* Industry Page*/
@@ -244,7 +259,7 @@ footer {
   background: rgba(161, 160, 160, 0.2);
 }
 
-/* Job Industry Page*/
+/* Job Industry Page and Search Page*/
 
 .jobs-grid-container {
   margin: 3rem 4rem;
@@ -279,6 +294,11 @@ footer {
 
 .head1 {
   margin-left: 2rem;
+}
+
+.searchCon {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Company Page*/
@@ -461,25 +481,74 @@ footer {
   display: flex;
 }
 .mapCon {
-  margin: 2rem 2rem 0rem;
-  padding: 2rem;
+  margin: 2rem;
+  padding: 3rem;
   border: none;
   border-radius: 25px;
   background-color: white;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   color: #545454;
   font-family: "MullerBlack", "Arial Black", arial, sans-serif;
 }
 
-.district {
-  fill: rgb(57, 36, 89);
+.mapNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.mapNav h1 {
+  margin-top: 5px;
+}
+
+#mapSearchBar-form {
+  width: 100%;
+  max-width: 350px;
+  height: 3rem;
+  background: rgba(35, 34, 34, 0.2);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#mapSearchBar-form input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+::placeholder {
+  padding-left: 1rem;
+  font-size: 14px;
+  color: #1b0938;
+}
+
+#mapSearchBar-form button {
+  border: 0;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background-color: #402a64;
   cursor: pointer;
 }
 
+#mapSearchBar-form button:hover {
+  background-color: #221735;
+}
+
+#mapSearchBar-form button img {
+  height: 30px;
+  width: 30px;
+}
+
 .district:hover {
-  fill: rgb(198, 198, 200);
+  fill: #a5a5a7;
   cursor: pointer;
 }
 
@@ -503,12 +572,13 @@ footer {
   margin: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
   grid-gap: 1rem;
 }
 
 .puzzle {
   /* height: 6rem; */
-  background: rgba(255, 255, 255, 0.2);
+  /* background: rgba(255, 255, 255, 0.2); */
   border-radius: 20px;
   padding: 20px;
   font-size: 150%;
@@ -516,28 +586,43 @@ footer {
   align-items: center;
   justify-content: center;
   color: rgb(237, 235, 235);
+  position: relative;
 }
 
 .puzzle:hover {
   cursor: pointer;
-  background: rgba(161, 160, 160, 0.2);
+  background: #1b0938;
 }
 
 .a {
   grid-column: 1 / 3;
   grid-row: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/ktmmm.jpg");
+  background-size: cover;
 }
 .b {
   grid-column: 3;
   grid-row: 1 / 3;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/bhakta.jpg");
+  background-size: cover;
 }
 .c {
   grid-column: 1;
   grid-row: 2;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/pokhara.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .d {
   grid-column: 2;
   grid-row: 2;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/lalitpur.png");
+  background-position: center;
+  background-size: cover;
 }
 .e {
   grid-column: 1;
@@ -563,3 +648,19 @@ footer {
   grid-column: 1;
   grid-row: 3 / 5;
 } */
+
+/* Inside Location Page */
+
+.locButton {
+  background-color: rgb(245, 79, 29);
+  border: none;
+  padding: 10px 13px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14.5px;
+  width: 165px;
+  height: 40px;
+}

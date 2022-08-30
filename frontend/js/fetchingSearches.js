@@ -1,32 +1,25 @@
-/* eslint-disable no-unused-vars */
 // @ts-nocheck
 /* eslint-disable require-jsdoc */
-// eslint-disable-next-line require-jsdoc
 
-async function getLocationData(locationName) {
-  console.log("here/......");
-  const response = await fetch(
-    `http://localhost:3000/location/${locationName}`
-  );
+async function getData(jobName) {
+  const name = { jobname: jobName };
+  const response = await fetch(`http://localhost:3000/search`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(name),
+  });
   const data = await response.json();
   return data;
 }
 
-// LOGIC: { location: { $nin: [ "Kathmandu", "kathmandu", "Bhaktapur", "Lalitpur" ] }}
-
 async function showData(id) {
-  // @ts-ignore
-  const data = await getLocationData(id);
-  console.log(data);
-  const totalVac = data[1];
-  const actualData = data[0];
-  console.log(totalVac);
-  console.log(actualData);
-  const btnElement = document.querySelector(".locButton");
-  btnElement.innerHTML = `${totalVac} Vacancies`;
+  console.log("Inside show data: " + id);
+  const data = await getData(id);
+  console.log({ data });
   const jobsContainer = document.querySelector(".jobs-grid-container");
-
-  actualData.forEach((element) => {
+  data.forEach((element) => {
     const gridItem = document.createElement("div");
     gridItem.className = "jobs-grid-item";
     const contents = document.createElement("div");
@@ -37,10 +30,10 @@ async function showData(id) {
     head3.innerHTML = element.jobTitle;
     const head5one = document.createElement("h5");
     head5one.className = "head5one";
-    head5one.innerHTML = element.companyName;
+    head5one.innerHTML = `Company:  ${element.companyName}`;
     const head5two = document.createElement("h5");
     head5two.className = "head5two";
-    head5two.innerHTML = element.location;
+    head5two.innerHTML = `Location:  ${element.location}`;
 
     contents.appendChild(head3);
     contents.appendChild(head5one);
@@ -67,14 +60,12 @@ async function showData(id) {
 
 window.onload = () => {
   // retriving all query params
-  const urlSearchParams = new URLSearchParams(
-    window.location.search.replace("%20", "")
-  );
+  const urlSearchParams = new URLSearchParams(window.location.search);
   const params = Object.fromEntries(urlSearchParams.entries());
-  console.log({ params });
-  const myLocation = params.location;
-  console.log(myLocation);
-  if (myLocation) {
-    showData(myLocation);
+  //   console.log({ params });
+  const job = params.job;
+  //   console.log(job);
+  if (job) {
+    showData(job);
   }
 };

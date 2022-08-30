@@ -1,7 +1,160 @@
 /* eslint-disable no-unused-vars */
-// @ts-check
+// @ts-nocheck
 
 // Functions used in index.js
+
+const districtList = {
+  achham: ["mangalsen", "sanphebagar", "kamalbazar"],
+  arghakhanchi: ["sandhikharka"],
+  baglung: ["baglung", "galkot", "jaimini", "dhorpatan"],
+  baitadi: ["dasharathchand", "melauli"],
+  bajhang: ["jayaprithvi"],
+  bajura: ["martadi", "badimalika", "tribeni", "budhiganga"],
+  banke: ["nepalgunj", "kohalpur"],
+  bara: ["kalaiya", "jitpursimara", "mahagadhimai"],
+  bardiya: ["gulariya", "barbardiya", "rajapur", "bansgadhi"],
+  bhaktapur: ["bhaktapur", "suryabinayak", "thimi", "changunarayan"],
+  bhojpur: ["bhojpur", "shadanand"],
+  chitwan: [
+    "bharatpur",
+    "narayangadh",
+    "rampur",
+    "sauraha",
+    "devghat",
+    "ratnanagar",
+    "rapti",
+  ],
+  dadeldhura: ["amargadhi", "parshuram"],
+  dailekh: ["narayan", "dullu", "aathabis"],
+  dang: ["ghorahi", "tulsipur"],
+  darchula: ["darchula", "mahakali", "shailyashikhar"],
+  dhading: ["nilkantha", "dhading besi"],
+  dhankuta: ["dhankuta", "mahalaxmi", "pakhribas"],
+  dhanusa: ["janakpur", "chhireshwarnath"],
+  dolakha: ["bhimeshwar", "charikot", "jiri"],
+  dolpa: ["dunai", "thuli bheri"],
+  doti: ["dipayal"],
+  gorkha: ["gorkha", "palungtar"],
+  gulmi: ["tamghas", "resunga"],
+  humla: ["simikot"],
+  ilam: ["suryodaya"],
+  jajarkot: ["khalanga", "bheri"],
+  jhapa: [
+    "bhadrapur",
+    "mechinagar",
+    "birtamod",
+    "damak",
+    "shivasatakshi",
+    "arjundhara",
+  ],
+  jumla: ["chandannath"],
+  kailali: ["dhangadhi", "tikapur", "lamki chuha", "ghodaghodi"],
+  kalikot: ["manma", "raskot", "tilagupha"],
+  kanchanpur: ["bhimdatta", "krishnapur", "belauri", "mahendranagar"],
+  kapilvastu: [
+    "taulihawa",
+    "banganga",
+    "shivaraj",
+    "buddhabhumi",
+    "krishnanagar",
+  ],
+  kaski: ["pokhara", "lekhnath"],
+  kathmandu: [
+    "kathmandu",
+    "thapathali",
+    "durbarmarg",
+    "dilibazar",
+    "budhanilkantha",
+    "chandragiri",
+    "tokha",
+    "gokarneshwar",
+    "kirtipur",
+  ],
+  kavre: ["dhulikhel", "banepa", "paunauti"],
+  khotang: ["diktel"],
+  lalitpur: [
+    "lalitpur",
+    "patan",
+    "kupondole",
+    "nakkhu",
+    "Godawari",
+    "jawalakhel",
+    "imadol",
+    "sanepa",
+    "ekantakuna",
+    "lagankhel",
+  ],
+  lamjung: ["besisahar", "sundarbazar", "rainas"],
+  mahottari: ["jaleshwar", "bardibas"],
+  makwanpur: ["hetauda"],
+  manang: ["chame"],
+  morang: [
+    "biratnagar",
+    "belbari",
+    "urlabari",
+    "ratuwamai",
+    "rangeli",
+    "sunawarshi",
+    "letang",
+  ],
+  mugu: ["gamgadhi"],
+  mustang: ["jomsom"],
+  myagdi: ["beni"],
+  nawalparasi: [
+    "kawasoti",
+    "ramgram",
+    "madhyabindu",
+    "gaindakot",
+    "sunwal",
+    "bardghat",
+  ],
+  nuwakot: ["bidur"],
+  okhaldhunga: ["siddhicharan"],
+  palpa: ["tansen", "rampur"],
+  panchthar: ["phidim"],
+  parbat: ["kushma", "phalewas"],
+  parsa: ["birgunj"],
+  pyuthan: ["pyuthan", "swargadwari"],
+  ramechhap: ["manthali"],
+  rasuwa: ["dhunche"],
+  rautahat: ["gaur", "chandrapur"],
+  rolpa: ["liwang"],
+  rukum: ["rukumkot", "musikot"],
+  rupandehi: [
+    "siddharthanagar",
+    "butwal",
+    "tilottama",
+    "lumbini",
+    "devdaha",
+    "manigram",
+    "lumbini sanskritik",
+    "sainamaina",
+  ],
+  salyan: ["salyan", "bagchaur", "shaarda"],
+  sankhuwasabha: ["khandbari", "chainpur"],
+  saptari: ["rajbiraj"],
+  sarlahi: ["malangwa", "barahathwa", "ishwarpur"],
+  sindhuli: ["kamalamai"],
+  sindhupalchok: ["chautara", "melamchi", "barhabise"],
+  siraha: ["siraha"],
+  solukhumbu: ["salleri", "solu dudhkunda"],
+  sunsari: [
+    "inaruwa",
+    "itahari",
+    "dharan",
+    "barahachhetra",
+    "duhabi",
+    "ramdhuni",
+  ],
+  surkhet: ["birendranagar", "gurbhakot", "panchapuri"],
+  syangja: ["putalibazar", "waling"],
+  tanahun: ["damauli", "vyas", "shuklagandaki", "bhanu"],
+  taplejung: ["taplejung"],
+  terhathum: ["myanglung"],
+  udayapur: ["gaighat", "triyuga", "katari", "chaudandigadhi"],
+  remote: ["remote", "work from home"],
+  allNepal: ["all over nepal", "nepal"],
+};
 
 const e = require("express");
 
@@ -70,8 +223,10 @@ const dataFromJobLink = async ({ links, browser }) => {
           `${selectorHead} h2 > a > span`,
           (el) => el.innerText
         );
+        //          `body > div.container.my-3 div.card-body.p-0.table-responsive .clearfix`).innerText;
+
         const location = await newPage.$eval(
-          `${selectorHead} table .clearfix`,
+          `body > div.container.my-3 div.card-body.p-0.table-responsive .clearfix`,
           (el) => el.innerText
         );
         const vacancy = parseInt(
@@ -84,12 +239,45 @@ const dataFromJobLink = async ({ links, browser }) => {
         if (!jobTitle || !industry || !companyName || !location || !vacancy) {
           // guard condition
         } else {
+          const jobLocations = location.replace(",", "").split(" ");
+          const districtKeys = Object.keys(districtList);
+          const districtVals = Object.values(districtList);
+
+          const listForDistrict = [];
+          jobLocations.forEach((el) => {
+            if (districtKeys.includes(el.toLowerCase()))
+              listForDistrict.push(el);
+            else {
+              const districtIndex = districtVals.findIndex((cities) =>
+                cities.includes(el.toLowerCase())
+              );
+              if (districtIndex >= 0) {
+                listForDistrict.push(districtKeys[districtIndex]);
+              } else {
+                listForDistrict.push("Unknown");
+              }
+            }
+          });
+
+          let district = "";
+          if (listForDistrict.length < 1) {
+            // no district found in location
+            district = "Others";
+          } else if (listForDistrict.length == 1) {
+            // 1 district present
+            district = listForDistrict[0];
+          } else {
+            // many district present
+            district = listForDistrict.toString();
+          }
+
           totalResult.push({
             jobTitle,
             industry,
             companyName,
             location,
             vacancy,
+            // district,
           });
         }
       } catch (error) {
@@ -192,6 +380,7 @@ const dbforJobs = async (mongoose, fs, getPath) => {
         companyName: String,
         location: String,
         vacancy: Number,
+        // district: String,
       },
       { collection: "jobInformation", timestamps: true, unique: true }
     );

@@ -52,9 +52,6 @@ async function showData(id) {
 
     jobsContainer?.appendChild(gridItem);
   });
-  const objValues = Object.values(data);
-  console.log(objValues);
-  // var result = objValues.find(item => item.);
 }
 
 window.onload = () => {

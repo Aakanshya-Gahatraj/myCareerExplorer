@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyCareerExplorer | Home Page</title>
     <link rel="stylesheet" href="..\css\main.css" />
+    <!-- <script src="../js/fetchingSearches.js"></script> -->
   </head>
   <body>
     <nav>
@@ -35,15 +36,11 @@
         <p class="sub-heading">
           <br />Type below or search as per the following categories.
         </p>
-        <form
-          action="https://www.google.com/search"
-          method="get"
-          class="search-bar"
-        >
+        <form id="search-bar" method="GET" action="search.html">
           <input
             type="text"
             placeholder="Enter a profession's name..."
-            name="q"
+            name="job"
           />
           <button type="submit">
             <img src="..\img\search-i.png" />

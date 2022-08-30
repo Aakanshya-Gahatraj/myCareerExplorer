@@ -7,6 +7,16 @@
     <title>MyCareerExplorer | Company</title>
     <link rel="stylesheet" href="..\css\main.css" />
     <script src="../js/fetchingLocation.js"></script>
+    <script>
+      function changeRouteWithParam(route, params = {}) {
+        const queryParams = Object.keys(params).map(
+          (key) => `${key}=${String(params[key])}`
+        );
+        console.log(queryParams);
+        const newUrl = `${route}? ${queryParams}`;
+        window.location.href = newUrl;
+      }
+    </script>
   </head>
   <body>
     <div class="navBar">
@@ -17,27 +27,48 @@
             onclick="window.location.href='index.html'"
           />
         </li>
-        <li class="_blue button">Location</li>
+        <li class="reddish button">Location</li>
       </ul>
     </div>
     <div class="puzzle-grid-container">
-      <div class="puzzle a" id="Kathmandu" onclick="locationJobs(id)">
+      <div
+        class="puzzle a"
+        id="Kathmandu"
+        onclick="changeRouteWithParam('insideLocation.html', {location: id})"
+      >
         Kathmandu
       </div>
-      <div class="puzzle b" id="Bhaktapur" onclick="locationJobs(id)">
+      <div
+        class="puzzle b"
+        id="Bhaktapur"
+        onclick="changeRouteWithParam('insideLocation.html', {location:id})"
+      >
         Bhaktapur
       </div>
-      <div class="puzzle c" id="Lalitpur" onclick="locationJobs(id)">
-        Lalitpur
-      </div>
-      <div class="puzzle d" id="Pokhara" onclick="locationJobs(id)">
+      <div
+        class="puzzle c"
+        id="Pokhara"
+        onclick="changeRouteWithParam('insideLocation.html', {location:id})"
+      >
         Pokhara
       </div>
-      <div class="puzzle e" id="Butwal" onclick="locationJobs(id)">Butwal</div>
-      <div class="puzzle f" id="Nagarkot" onclick="locationJobs(id)">
-        Nagarkot
+      <div
+        class="puzzle d"
+        id="Lalitpur"
+        onclick="changeRouteWithParam('insideLocation.html', {location:id})"
+      >
+        Lalitpur
       </div>
-      <!-- <div id="Butwal"></div> -->
+      <div
+        class="puzzle e"
+        id="Butwal"
+        onclick="changeRouteWithParam('insideLocation.html', {location:id})"
+      >
+        Butwal
+      </div>
+      <!-- <div class="puzzle f" id="Nagarkot" onclick="getlocationJobs(id)">
+        Nagarkot
+      </div> -->
       <div class="puzzle g" id="All Over Nepal">All Over Nepal</div>
       <div class="puzzle h" id="Work From Home">Work From Home</div>
       <div class="puzzle i" id="Others">Others</div>

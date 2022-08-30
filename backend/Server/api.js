@@ -104,14 +104,84 @@ const run = async () => {
     }
   });
 
-  app.get("/location/:location", async (req, res) => {
+  app.get("/location/:location_name", async (req, res) => {
     try {
+      // console.log("Inside API");
+      const location = req.params.location_name;
+      console.log("Location: " + location);
+
       const getLocationData = await jobModel.find({
-        $text: { $search: "kathmandu" },
+        $text: { $search: location },
       });
-      console.log(getLocationData);
+      // console.log("Location Data:  " + getLocationData);
       // console.log(getLocationData.length);
-      res.send(getLocationData);
+
+      const locationVacancies = await jobModel.aggregate([
+        { $match: { $text: { $search: `"${location}"` } } },
+        { $group: { _id: location, totalVacancy: { $sum: "$vacancy" } } },
+      ]);
+      const result = [];
+      for await (const docs of locationVacancies) {
+        result.push(docs);
+      }
+      const totalVac = result[0]["totalVacancy"];
+      // console.log(totalVac);
+      res.send([getLocationData, totalVac]);
+    } catch (e) {
+      res.status(400).send(e);
+    }
+  });
+
+  // Needed for post
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
+  app.post("/opportunities", async (req, res) => {
+    try {
+      job = req.body.job1;
+      console.log(job);
+      const getData = await jobModel.find({
+        $text: { $search: `\"${job}\"` },
+      });
+
+      // console.log(countsExtende  d);
+
+      // const locations = [];
+      // getData.forEach((el) => {
+      //   locations.push(el.location);
+      // });
+      // // locations.append(getData.location);
+      // console.log(locations);
+
+      // const dataArray= getData.aggregate([
+      //   { $match: { $text: { $search: `"${job}"` } } },
+      //   {
+      //     $group: {
+      //       _id: {job,jobModel.location},
+      //       totalVacancy: { $sum: "$vacancy" },
+      //     },
+      //   },
+      // ]);
+      // const result = [];
+      // for await (const docs of getLocationData) {
+      //   // console.log(docs);
+      //   result.push(docs);
+      // }
+      // console.log(getData);
+      res.send(getData);
+    } catch (e) {
+      res.status(400).send(e);
+    }
+  });
+
+  app.post("/search", async (req, res) => {
+    try {
+      job = req.body.jobname;
+      // console.log(job);
+      const searchJobs = await jobModel.find({
+        $text: { $search: `\"${job}\"` },
+      });
+      // console.log(searchJobs);
+      res.send(searchJobs);
     } catch (e) {
       res.status(400).send(e);
     }
@@ -130,9 +200,6 @@ const run = async () => {
   //   }
   // });
 
-  // Needed for post
-  app.use(bodyParser.json());
-  app.use(bodyParser.urlencoded({ extended: true }));
   app.post("/compare", async (req, res) => {
     try {
       console.log(req.body);
@@ -156,7 +223,6 @@ const run = async () => {
         result.push(docs);
       }
       // console.log(result);
-      // const totalVacancies= await jobModel.where()
 
       res.send(result);
     } catch (e) {
