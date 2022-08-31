@@ -18,6 +18,24 @@ async function showData(id) {
   console.log("Inside show data: " + id);
   const data = await getData(id);
   console.log({ data });
+
+  // Storing the data in session for trend analysis
+  const dataString = JSON.stringify(data);
+  sessionStorage.setItem("searchData", dataString);
+
+  let sum = 0;
+  for (const job of data) {
+    sum += job.vacancy;
+  }
+
+  const analyzeTrend = document.querySelector("#trend");
+  analyzeTrend.onclick = () => {
+    window.location.href = `trends.html?jobName=${id}`;
+  };
+
+  const searchRes = document.querySelector("#searchResults");
+  searchRes.innerHTML = `${id}: ${sum} Vacancies`;
+
   const jobsContainer = document.querySelector(".jobs-grid-container");
   data.forEach((element) => {
     const gridItem = document.createElement("div");
@@ -64,6 +82,8 @@ window.onload = () => {
   const params = Object.fromEntries(urlSearchParams.entries());
   //   console.log({ params });
   const job = params.job;
+  // const industry = params.industry.replace(/\//g, "%2F");
+
   //   console.log(job);
   if (job) {
     showData(job);

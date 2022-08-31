@@ -197,35 +197,35 @@ footer {
 .navBar li {
   list-style-type: none;
 }
+/* 
+.pos ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 6rem;
+} */
 
 .button {
   border: none;
-  padding: 10px 13px;
+  padding: 10px 23px;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 14.5px;
-  max-width: 60rem;
+  max-width: 80rem;
   height: 40px;
 }
 
 ._red {
   background: rgb(221, 65, 62);
-  padding-left: 23px;
-  padding-right: 23px;
 }
 
 ._brown {
   background-color: rgb(87, 47, 28);
-  padding-left: 23px;
-  padding-right: 23px;
 }
 
 ._blue {
   background: rgb(56, 106, 199);
-  padding-left: 23px;
-  padding-right: 23px;
 }
 
 ._pink {
@@ -234,6 +234,23 @@ footer {
   padding-right: 23px;
 }
 
+.btn {
+  border: none;
+  padding: 10px 30px;
+  margin-left: 44rem;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14.5px;
+  max-width: 65rem;
+  height: 40px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgba(228, 34, 102, 0.543);
+}
 /* Industry Page*/
 
 .grid-container {
@@ -591,7 +608,7 @@ footer {
 
 .puzzle:hover {
   cursor: pointer;
-  background: #1b0938;
+  background: #120329ae;
 }
 
 .a {
@@ -613,7 +630,6 @@ footer {
   grid-row: 2;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
     url("../img/pokhara.jpg");
-  background-position: center;
   background-size: cover;
 }
 .d {
@@ -621,33 +637,36 @@ footer {
   grid-row: 2;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
     url("../img/lalitpur.png");
-  background-position: center;
   background-size: cover;
 }
 .e {
   grid-column: 1;
   grid-row: 3 / 5;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/Butwal1.jpg");
+  background-size: cover;
 }
 .f {
   grid-column: 2/4;
   grid-row: 3;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/nagarkot.jpg");
+  background-size: cover;
 }
 .g {
   grid-column: 2;
   grid-row: 4;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/remoteWork.jpg");
+  background-size: cover;
 }
 .h {
   grid-column: 3;
   grid-row: 4;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.477)),
+    url("../img/Others.jpg");
+  background-size: cover;
 }
-.i {
-  grid-column: 1/4;
-  grid-row: 5;
-}
-/* .h {
-  grid-column: 1;
-  grid-row: 3 / 5;
-} */
 
 /* Inside Location Page */
 
@@ -663,4 +682,23 @@ footer {
   font-size: 14.5px;
   width: 165px;
   height: 40px;
+}
+
+/* Trend Page */
+
+.trendCon {
+  margin: 2rem 0rem;
+  padding: 3rem;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  width: 68rem;
+  display: flex;
+  flex-direction: column;
+  color: #545454;
+  font-family: "MullerBlack", "Arial Black", arial, sans-serif;
+}
+
+.subHead {
+  font-style: italic;
 }

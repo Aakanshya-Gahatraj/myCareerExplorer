@@ -253,117 +253,300 @@ function countJobsPerDistricts(jobLists) {
     terhathum: 0,
     udayapur: 0,
   };
-  const districtsList = [
-    "achham",
-    "arghakhanchi",
-    "baglung",
-    "baitadi",
-    "bajhang",
-    "bajura",
-    "banke",
-    "bara",
-    "bardiya",
-    "bhaktapur",
-    "bhojpur",
-    "chitwan",
-    "dadeldhura",
-    "dailekh",
-    "dang",
-    "darchula",
-    "dhading",
-    "dhankuta",
-    "dhanusa",
-    "dholkha",
-    "dolpa",
-    "doti",
-    "gorkha",
-    "gulmi",
-    "humla",
-    "ilam",
-    "jajarkot",
-    "jhapa",
-    "jumla",
-    "kailali",
-    "kalikot",
-    "kanchanpur",
-    "kapilvastu",
-    "kaski",
-    "kathmandu",
-    "kavre",
-    "khotang",
-    "lalitpur",
-    "lamjung",
-    "mahottari",
-    "makwanpur",
-    "manang",
-    "morang",
-    "mugu",
-    "mustang",
-    "myagdi",
-    "nawalparasi",
-    "nuwakot",
-    "okhaldhunga",
-    "palpa",
-    "panchthar",
-    "parbat",
-    "parsa",
-    "pyuthan",
-    "ramechhap",
-    "rasuwa",
-    "rautahat",
-    "rolpa",
-    "rukum",
-    "rupandehi",
-    "salyan",
-    "sankhuwasabha",
-    "saptari",
-    "sarlahi",
-    "sindhuli",
-    "sindhupalchok",
-    "siraha",
-    "solukhumbu",
-    "sunsari",
-    "surkhet",
-    "syangja",
-    "tanahu",
-    "taplejung",
-    "terhathum",
-    "udayapur",
-  ];
-  // "bhatbhatini, ktm"=> ["bhatbhatini", "ktm"]
-  const jobLocations = jobLists
-    .map((el) => el.location)
-    .map((el) =>
-      el
-        .replace(",", "")
-        .split(" ")
-        .map((el) => el.trim())
-    );
+  // eslint-disable-next-line no-unused-vars
+  const citiesOfDistrict = {
+    achham: ["mangalsen", "sanphebagar", "kamalbazar"],
+    arghakhanchi: ["sandhikharka"],
+    baglung: ["baglung", "galkot", "jaimini", "dhorpatan"],
+    baitadi: ["dasharathchand", "melauli"],
+    bajhang: ["jayaprithvi"],
+    bajura: ["martadi", "badimalika", "tribeni", "budhiganga"],
+    banke: ["nepalgunj", "kohalpur"],
+    bara: ["kalaiya", "jitpursimara", "mahagadhimai"],
+    bardiya: ["gulariya", "barbardiya", "rajapur", "bansgadhi"],
+    bhaktapur: [
+      "bhaktapur",
+      "nagarkot",
+      "suryabinayak",
+      "thimi",
+      "lokanthali",
+      "changunarayan",
+    ],
+    bhojpur: ["bhojpur", "shadanand"],
+    chitwan: [
+      "bharatpur",
+      "narayangadh",
+      "narayangarh",
+      "rampur",
+      "sauraha",
+      "devghat",
+      "ratnanagar",
+      "rapti",
+    ],
+    dadeldhura: ["amargadhi", "parshuram"],
+    dailekh: ["narayan", "dullu", "aathabis"],
+    dang: ["ghorahi", "tulsipur"],
+    darchula: ["darchula", "mahakali", "shailyashikhar"],
+    dhading: ["nilkantha", "galchi"],
+    dhankuta: ["dhankuta", "mahalaxmi", "pakhribas"],
+    dhanusa: ["janakpur", "chhireshwarnath"],
+    dolakha: ["bhimeshwar", "charikot", "jiri"],
+    dolpa: ["dunai", "thuli bheri"],
+    doti: ["dipayal"],
+    gorkha: ["gorkha", "palungtar"],
+    gulmi: ["tamghas", "resunga"],
+    humla: ["simikot"],
+    ilam: ["suryodaya"],
+    jajarkot: ["khalanga", "bheri"],
+    jhapa: [
+      "bhadrapur",
+      "mechinagar",
+      "birtamod",
+      "damak",
+      "shivasatakshi",
+      "arjundhara",
+    ],
+    jumla: ["chandannath"],
+    kailali: ["dhangadhi", "tikapur", "lamki chuha", "ghodaghodi"],
+    kalikot: ["manma", "raskot", "tilagupha"],
+    kanchanpur: ["bhimdatta", "krishnapur", "belauri", "mahendranagar"],
+    kapilvastu: [
+      "taulihawa",
+      "banganga",
+      "shivaraj",
+      "buddhabhumi",
+      "krishnanagar",
+    ],
+    kaski: ["pokhara", "lekhnath"],
+    kathmandu: [
+      "kathmandu",
+      "baluwatar",
+      "lainchaur",
+      "lazimpat",
+      "gongabu",
+      "panipokhari",
+      "putalisadak",
+      "kamal pokhari",
+      "new baneshwor",
+      "mid baneshwor",
+      "purano baneshwor",
+      "boudhha",
+      "thamel",
+      "dallu",
+      "thapathali",
+      "durbarmarg",
+      "dilibazar",
+      "budhanilkantha",
+      "chandragiri",
+      "tokha",
+      "gokarneshwar",
+      "kirtipur",
+      "gaushala",
+      "gairidhara",
+    ],
+    kavre: ["dhulikhel", "banepa", "paunauti"],
+    khotang: ["diktel"],
+    lalitpur: [
+      "lalitpur",
+      "patan",
+      "patan dhoka",
+      "satdobato",
+      "kupondole",
+      "kandevsthan",
+      "nakkhu",
+      "Godawari",
+      "jawalakhel",
+      "imadol",
+      "sanepa",
+      "ekantakuna",
+      "lagankhel",
+    ],
+    lamjung: ["besisahar", "sundarbazar", "rainas"],
+    mahottari: ["jaleshwar", "bardibas"],
+    makwanpur: ["hetauda"],
+    manang: ["chame"],
+    morang: [
+      "biratnagar",
+      "belbari",
+      "urlabari",
+      "ratuwamai",
+      "rangeli",
+      "sunawarshi",
+      "letang",
+    ],
+    mugu: ["gamgadhi"],
+    mustang: ["jomsom"],
+    myagdi: ["beni"],
+    nawalparasi: [
+      "kawasoti",
+      "ramgram",
+      "madhyabindu",
+      "gaindakot",
+      "sunwal",
+      "bardghat",
+    ],
+    nuwakot: ["bidur"],
+    okhaldhunga: ["siddhicharan"],
+    palpa: ["tansen", "rampur"],
+    panchthar: ["phidim"],
+    parbat: ["kushma", "phalewas"],
+    parsa: ["birgunj"],
+    pyuthan: ["pyuthan", "swargadwari"],
+    ramechhap: ["manthali"],
+    rasuwa: ["dhunche"],
+    rautahat: ["gaur", "chandrapur"],
+    rolpa: ["liwang"],
+    rukum: ["rukumkot", "musikot"],
+    rupandehi: [
+      "siddharthanagar",
+      "butwal",
+      "tilottama",
+      "lumbini",
+      "devdaha",
+      "manigram",
+      "lumbini sanskritik",
+      "sainamaina",
+    ],
+    salyan: ["salyan", "bagchaur", "shaarda"],
+    sankhuwasabha: ["khandbari", "chainpur"],
+    saptari: ["rajbiraj"],
+    sarlahi: ["malangwa", "barahathwa", "ishwarpur"],
+    sindhuli: ["kamalamai"],
+    sindhupalchok: ["chautara", "melamchi", "barhabise"],
+    siraha: ["siraha"],
+    solukhumbu: ["salleri", "solu dudhkunda"],
+    sunsari: [
+      "inaruwa",
+      "itahari",
+      "dharan",
+      "barahachhetra",
+      "duhabi",
+      "ramdhuni",
+    ],
+    surkhet: ["birendranagar", "gurbhakot", "panchapuri"],
+    syangja: ["putalibazar", "waling"],
+    tanahun: ["damauli", "vyas", "shuklagandaki", "bhanu"],
+    taplejung: ["taplejung"],
+    terhathum: ["myanglung"],
+    udayapur: ["gaighat", "triyuga", "katari", "chaudandigadhi"],
+  };
 
-  // split(",")
+  // "bhatbhatini, ktm"=> ["bhatbhatini", "ktm"]
+  const seperatedJobLists = jobLists
+    .map((el) => el.location)
+    .map((el) => el.split(","));
+
+  console.log(seperatedJobLists);
+
+  const jobLocations = seperatedJobLists.map((el) =>
+    el.map((ele) => ele.trim())
+  );
+  console.log({ jobLocations });
+
+  // Removing Nepal from locations eg; ["Kathmandu","Nepal"] but not ["Nepal"]
+  for (let i = 0; i < jobLocations.length; i++) {
+    // console.log("i: ", i);
+    // console.log("No. of j: ", seperatedJobLists[i].length);
+    if (jobLocations[i].length > 1) {
+      for (let j = 1; j < jobLocations[i].length; j++) {
+        // console.log(`j[${j}] ${seperatedJobLists[i][j]}`);
+        if (jobLocations[i][j] == "Nepal") {
+          jobLocations[i].splice(j, 1);
+        }
+      }
+    }
+  }
+  // const jobLocations = seperatedJobLists;
+  // console.log("Job Locations");
+  // console.log(jobLocations);
+  // // const districtKeys = Object.keys(citiesOfDistrict);
+  // const districtVals = Object.values(citiesOfDistrict);
+
+  // // final location list
+  // const listForDistrict = [];
+  // jobLocations.forEach((el) => {
+  //   if (districtKeys.includes(el.toLowerCase())) listForDistrict.push(el);
+  //   else {
+  //     const districtIndex = districtVals.findIndex((cities) =>
+  //       cities.includes(el.toLowerCase())
+  //     );
+  //     if (districtIndex >= 0) {
+  //       listForDistrict.push(districtKeys[districtIndex]);
+  //     } else {
+  //       listForDistrict.push("Unknown");
+  //     }
+  //   }
+  // });
+
+  // let district = "";
+  // if (listForDistrict.length < 1) {
+  //   // no district found in location
+  //   district = "Others";
+  // } else if (listForDistrict.length == 1) {
+  //   // 1 district present
+  //   district = listForDistrict[0];
+  // } else {
+  //   // many district present
+  //   district = listForDistrict.toString();
+  // }
+
+  const districtKeys = Object.keys(citiesOfDistrict);
+  const districtVals = Object.values(citiesOfDistrict);
 
   jobLocations.forEach((loc) => {
+    const districtsFound = [];
     for (const place of loc) {
-      const index = districtsList.findIndex((el) =>
+      // When location is already a district
+      // finding the district index of searched city in districtKeys
+
+      const index = districtKeys.findIndex((el) =>
         String(el).includes(place.toLowerCase())
       );
-      console.log({ index, place });
       if (index > 0) {
-        districtDict[districtsList[index]] += 1;
+        console.log("District Found-----", { index, place });
+        if (districtsFound.includes(index) == false) {
+          // saving the districts found
+          districtsFound.push(index);
+          districtDict[districtKeys[index]] += 1;
+          console.log("District added", place, "cuz previous value not found!");
+        }
+      } else {
+        // When location has a place eg; loc => pokhara ,
+        // have to find respective district i.e district=> [...cities] eg : kaski=> ['pokhara']
+        // finding the district index of searched city in citiesOfDistrict list
+
+        const indexOfCity = districtVals.findIndex((el) =>
+          String(el).includes(place.toLowerCase())
+        );
+        // console.log(
+        //   `Index of searched City: ${place}, District: ${districtKeys[indexOfCity]} in cityList= `,
+        //   indexOfCity
+        // );
+
+        // finding the respective index of found district in District Dict eg; districtDict["Kathmandu"]
+        // console.log("Checker: ", districtsFound.includes(indexOfCity));
+
+        if (indexOfCity > 0) {
+          console.log("City Found-----", { indexOfCity, place });
+          if (districtsFound.includes(indexOfCity) == false) {
+            districtsFound.push(indexOfCity);
+            districtDict[districtKeys[indexOfCity]] += 1;
+            console.log("City added", place, "cuz previous value not found!");
+          }
+        }
       }
-      // else ma chai yo bhayena bhane bhitro ko cities haru sanga match garcha bhane keys ko indxx chai hya badhaune
-      // eg: loc => pokhara ,, district=> [...cities] eg : kaski => ['pokhara']
     }
   });
 
   const keys = Object.keys(districtDict);
-  console.log(keys); // ['num1', 'num2', 'num3', 'num4']
+  // console.log(keys); // ['num1', 'num2', 'num3', 'num4']
 
   const values = keys.map((key) => districtDict[key]);
-  console.log(values); // [10, 20, 5, 15]
+  // console.log(values); // [10, 20, 5, 15]
 
+  // Finding max value for color change in map
   const max = Math.max.apply(null, values);
-  console.log(max);
+  // console.log(max);
 
   // console.l;
   return { districtDict, max };

@@ -1,4 +1,5 @@
 const AdminBro = require("admin-bro");
+// const logo = require("frontend/img/mylogo.png");
 const AdminBroExpress = require("@admin-bro/express");
 const AdminBroMongoose = require("@admin-bro/mongoose");
 AdminBro.registerAdapter(AdminBroMongoose);
@@ -18,6 +19,21 @@ const run = async () => {
   const connection = await mongoose.connect("mongodb://localhost:27017/myDB", {
     useNewUrlParser: true,
   });
+
+  const locale = {
+    translations: {
+      labels: {
+        // change Heading for Login
+        loginWelcome: "Welcome Admin!",
+      },
+      messages: {
+        loginWelcome: "Login to your account.",
+      },
+      background: {
+        color: "#0A1F60",
+      },
+    },
+  };
 
   const adminBro = new AdminBro({
     databases: [connection],
@@ -47,9 +63,14 @@ const run = async () => {
       },
     ],
     rootPath: "/admin",
+    logoutPath: "http://127.0.0.1:5500/frontend/html/index.html",
+    locale,
     branding: {
-      // logo: "https://i.pinimg.com/474x/f7/99/20/f79920f4cb34986684e29df42ec0cebe.jpg",
-      companyName: "MyCareerExplorer",
+      softwareBrothers: false,
+      logo: "",
+      // logo: "https://warwick.ac.uk/services/careers/findingwork/international/teamwork.png",
+      // logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyt1KqlOCdaJP4YsTtJyQxE_veQb-sBceMg&usqp=CAU",
+      companyName: "🌍 MyCareerExplorer",
     },
   });
 
@@ -109,24 +130,60 @@ const run = async () => {
       // console.log("Inside API");
       const location = req.params.location_name;
       console.log("Location: " + location);
+      // const getLocationData = "";
+      if (location == "Others") {
+        const getLocationData = await jobModel.find({
+          location: {
+            $nin: [
+              /.*Kathmandu.*/i,
+              /.*Pokhara.*/i,
+              /.*Lalitpur.*/i,
+              /.*Bhaktapur.*/i,
+              /.*Butwal.*/i,
+              /.*Nagarkot.*/i,
+              /.*remote.*/i,
+              /.*work from home.*/i,
+            ],
+          },
+        });
+        // const totalVac= getLocationData.map(el)=>el.map(el)=>el.vacancy;
+        let sum = 0;
+        // eslint-disable-next-line guard-for-in
+        for (const job of getLocationData) {
+          sum += job.vacancy;
+        }
+        // console.log(getLocationData);
+        res.send([getLocationData, sum]);
+      } else if (location == "Remote") {
+        const getLocationData = await jobModel.find({
+          location: { $in: [/.*work from home.*/i, /.*remote.*/i] },
+        });
+        // console.log(getLocationData);
+        let sum = 0;
+        // eslint-disable-next-line guard-for-in
+        for (const job of getLocationData) {
+          sum += job.vacancy;
+        }
+        res.send([getLocationData, sum]);
+      } else {
+        const getLocationData = await jobModel.find({
+          $text: { $search: location },
+        });
+        // console.log("Location Data:  " + getLocationData);
+        // console.log(getLocationData.length);
 
-      const getLocationData = await jobModel.find({
-        $text: { $search: location },
-      });
-      // console.log("Location Data:  " + getLocationData);
-      // console.log(getLocationData.length);
-
-      const locationVacancies = await jobModel.aggregate([
-        { $match: { $text: { $search: `"${location}"` } } },
-        { $group: { _id: location, totalVacancy: { $sum: "$vacancy" } } },
-      ]);
-      const result = [];
-      for await (const docs of locationVacancies) {
-        result.push(docs);
+        const locationVacancies = await jobModel.aggregate([
+          { $match: { $text: { $search: `"${location}"` } } },
+          { $group: { _id: location, totalVacancy: { $sum: "$vacancy" } } },
+        ]);
+        const result = [];
+        for await (const docs of locationVacancies) {
+          result.push(docs);
+        }
+        const totalVac = result[0]["totalVacancy"];
+        // console.log(totalVac);
+        res.send([getLocationData, totalVac]);
       }
-      const totalVac = result[0]["totalVacancy"];
-      // console.log(totalVac);
-      res.send([getLocationData, totalVac]);
     } catch (e) {
       res.status(400).send(e);
     }
@@ -139,41 +196,46 @@ const run = async () => {
     try {
       job = req.body.job1;
       console.log(job);
-      const getData = await jobModel.find({
-        $text: { $search: `\"${job}\"` },
-      });
-
-      // console.log(countsExtende  d);
-
-      // const locations = [];
-      // getData.forEach((el) => {
-      //   locations.push(el.location);
-      // });
-      // // locations.append(getData.location);
-      // console.log(locations);
-
-      // const dataArray= getData.aggregate([
-      //   { $match: { $text: { $search: `"${job}"` } } },
-      //   {
-      //     $group: {
-      //       _id: {job,jobModel.location},
-      //       totalVacancy: { $sum: "$vacancy" },
-      //     },
-      //   },
-      // ]);
-      // const result = [];
-      // for await (const docs of getLocationData) {
-      //   // console.log(docs);
-      //   result.push(docs);
-      // }
-      // console.log(getData);
-      res.send(getData);
+      if (job.includes(" ") == true) {
+        const getData = await jobModel.find({
+          $text: { $search: `\"${job}\"` },
+        });
+        res.send(getData);
+      } else {
+        const getData = await jobModel.find({
+          $text: { $search: `${job}` },
+        });
+        res.send(getData);
+      }
     } catch (e) {
       res.status(400).send(e);
     }
   });
 
   app.post("/search", async (req, res) => {
+    try {
+      job = req.body.jobname;
+      console.log(job);
+      console.log(job.includes(" "));
+
+      if (job.includes(" ") == true) {
+        const searchJobs = await jobModel.find({
+          $text: { $search: `\"${job}\"` },
+        });
+        // console.log(searchJobs);
+        res.send(searchJobs);
+      } else {
+        const searchJobs = await jobModel.find({
+          $text: { $search: `${job}` },
+        });
+        res.send(searchJobs);
+      }
+    } catch (e) {
+      res.status(400).send(e);
+    }
+  });
+
+  app.post("/viewTrendGraph", async (req, res) => {
     try {
       job = req.body.jobname;
       // console.log(job);
@@ -186,19 +248,6 @@ const run = async () => {
       res.status(400).send(e);
     }
   });
-
-  // app.get("/location/:location", async (req, res) => {
-  //   const location = req.params.location;
-  //   try {
-  //     const getLocationData = await jobModel.find({
-  //       location: { $regex: new RegExp(".*" + location + ".*", "i") },
-  //     });
-  //     console.log(getLocationData);
-  //     res.send(getLocationData);
-  //   } catch (e) {
-  //     res.status(400).send(e);
-  //   }
-  // });
 
   app.post("/compare", async (req, res) => {
     try {

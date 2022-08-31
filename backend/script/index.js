@@ -74,6 +74,7 @@ const main = async () => {
     console.log(error);
   }
 
+  console.log("Webscrapping Successfully Completed!");
   await browser.close();
 };
 main();

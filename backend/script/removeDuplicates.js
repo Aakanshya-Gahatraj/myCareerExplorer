@@ -24,7 +24,6 @@ const removeCompDups = async () => {
         $group: {
           _id: { companyName: "$companyName" },
           slugs: { $addToSet: "$_id" },
-          count: { $sum: 1 },
         },
       },
       {

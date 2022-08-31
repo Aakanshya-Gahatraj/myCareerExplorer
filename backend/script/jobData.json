@@ -1,1122 +1,1276 @@
 [
   {
-    "jobTitle": "Communications Officer",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "Ullens School",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Marketing Officer",
+    "jobTitle": "Marketing & Content Manager",
     "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Yangrima Ecolodge",
-    "location": "Kathmandu",
+    "companyName": "ZenNepal",
+    "location": "Thamel, Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Social Studies Teacher (Secondary Level)",
-    "industry": "Teaching / Education",
-    "companyName": "Matribhumi School",
-    "location": "Lokanthali Road, Madhyapur Thimi, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Fundraising Officer",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Just Nepal Foundation (JNF)",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Medical Representative",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "Gorkha Ayurved Company",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Marketing Manager",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "Gorkha Ayurved Company",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Farm Supervisor",
-    "industry": "Production / Maintenance / Quality",
-    "companyName": "RK Trade International",
-    "location": "Janakpur",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Graphic Designer",
-    "industry": "Creative / Graphics / Designing",
-    "companyName": "Dynamic Technosoft",
-    "location": "kathmandu",
-    "vacancy": 5
-  },
-  {
-    "jobTitle": "Senior Counselors",
-    "industry": "Teaching / Education",
-    "companyName": "Merit Education Consultancy",
-    "location": "Putalisadak , Baneshwor, Birtamode, Butwal",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "PTE/IELTS Instructor",
-    "industry": "Teaching / Education",
-    "companyName": "Merit Education Consultancy",
-    "location": "Baneshwor, Putalisadak, Birtamode, Butwal",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "Project Manager",
-    "industry": "Sales / Public Relations",
-    "companyName": "Rathi Group",
-    "location": "Electric Light House building Bhotebhal, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Data Entry and Documentation Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Gurukul Commerce Academy",
-    "location": "Bagbazar, Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Engineer",
-    "industry": "Commercial / Logistics / Supply Chain",
-    "companyName": "National Electric and Building Solution Pvt. Ltd.",
-    "location": "Kandevsthan, Kupondole, Near Big Mart, Lalitpur",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Senior Accountant",
-    "industry": "Accounting / Finance",
-    "companyName": "Pashupati Kattha Mills",
-    "location": "Dhobighat ,Lalitpur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Fashion Designer",
-    "industry": "Fashion / Textile Designing",
-    "companyName": "IEC College of Art and Fashion",
-    "location": "Mandikatar, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Receptionist",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "IEC College of Art and Fashion",
-    "location": "Mandikatar,Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Architect / Interior Designer",
-    "industry": "Architecture / Interior Designing",
-    "companyName": "IEC College of Art and Fashion",
-    "location": "Mandikatar ,Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sr. Flutter developer",
+    "jobTitle": "Software Solutions Engineer",
     "industry": "IT & Telecommunication",
+    "companyName": "ZenNepal",
+    "location": "Thamel, Kathmandu",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Procurement and Admin Head",
+    "industry": "Commercial / Logistics / Supply Chain",
     "companyName": "Executive Search- merojob",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "International Trade Manager (Market Intelligence Manager)",
+    "jobTitle": "Recruitment Supervisor",
     "industry": "Sales / Public Relations",
-    "companyName": "RK Trade International",
+    "companyName": "Rojgari Services",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Hotel & F&B Manager",
-    "industry": "Hospitality",
-    "companyName": "Serene Group",
-    "location": "Gongabu,Kathmandu",
+    "jobTitle": "Public Relations Supervisor",
+    "industry": "Sales / Public Relations",
+    "companyName": "Rojgari Services",
+    "location": "Kathmandu, Nepal",
     "vacancy": 1
   },
   {
     "jobTitle": "Accountant",
     "industry": "Accounting / Finance",
-    "companyName": "Beez Consulting",
-    "location": "Boudha,Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Social Media Content Strategist",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "DNA Technology Pvt. Ltd",
-    "location": "Setopool",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Credit & Recovery Head",
-    "industry": "Banking / Insurance /Financial Services",
-    "companyName": "Agni Hire Purchase",
-    "location": "Kathmandu",
+    "companyName": "Rojgari Services",
+    "location": "Goldhunga Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "ReactJS Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "BI-SOLUTIONS",
-    "location": "Remote or Kathmandu office",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Counsellor",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "SabKura Consultancy",
-    "location": "Kathmandu",
-    "vacancy": 5
-  },
-  {
-    "jobTitle": "Associate IT Service Manager",
-    "industry": "IT & Telecommunication",
-    "companyName": "Executive Search- merojob",
-    "location": "Thapathali",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Head of School of Computing",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Executive Search- merojob",
-    "location": "Thapathali",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Officer / Coordinator",
-    "industry": "Sales / Public Relations",
-    "companyName": "Tong Garden",
-    "location": "All Nepal (Province: 1, 2, 3, 4, 5, 6 and 7)",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "HR & Admin Manager",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "Evolution Trading",
-    "location": "Bakhundole, Lalitpur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Officer - Pokhara",
-    "industry": "Sales / Public Relations",
-    "companyName": "Phoenix Distillery",
-    "location": "Pokhara",
+    "jobTitle": "Project Assistant",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "ZTE Corporation",
+    "location": "Sanepa, Lalitpur",
     "vacancy": 1
   },
   {
     "jobTitle": "Senior PHP Developer",
     "industry": "IT & Telecommunication",
-    "companyName": "Pocket Studio",
-    "location": "Gairidhara",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "Secondary/ Higher Secondary Grade Teacher",
-    "industry": "Teaching / Education",
-    "companyName": "Bodhisattva Vihara (BV)",
-    "location": "Budhanilkantha, Kathmandu",
+    "companyName": "GreenCodes",
+    "location": "Townplanning, Pepsicola, Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Kindergarten/Nursery Teacher",
-    "industry": "Teaching / Education",
-    "companyName": "Bodhisattva Vihara (BV)",
-    "location": "Budhanilkantha, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Executive",
+    "jobTitle": "Enterprise Sales and Marketing Officer",
     "industry": "Sales / Public Relations",
-    "companyName": "Aayulogic",
-    "location": "Shantinagar, Kathmandu",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "Python/Django Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Aayulogic",
-    "location": "Shantinagar, Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "QA/QC Intern",
-    "industry": "IT & Telecommunication",
-    "companyName": "Aayulogic",
-    "location": "Nepal",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "QA/QC",
-    "industry": "IT & Telecommunication",
-    "companyName": "Aayulogic",
-    "location": "Santinagar, Kathmandu",
+    "companyName": "Subisu",
+    "location": "Baluwatar",
     "vacancy": 1
   },
   {
-    "jobTitle": "Butler Service Manager",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
+    "jobTitle": "Sales Manager",
+    "industry": "Sales / Public Relations",
+    "companyName": "Telemko Autolink",
+    "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "CDP Bakery and Pastry",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
+    "jobTitle": "HR Manager",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "SabKura Consultancy",
+    "location": "New Baneshwor, Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Butler",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Bartender",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "English Teacher (Primary Level)",
-    "industry": "Teaching / Education",
-    "companyName": "Matribhumi School",
-    "location": "Lokanthali Road, Madhyapur Thimi, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Accountant",
+    "jobTitle": "Semi Senior Accountant",
     "industry": "Accounting / Finance",
-    "companyName": "SKR Group",
-    "location": "Sanepa Height, Lalitpur",
+    "companyName": "ME10",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Software Support Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Bitskraft",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Motion Graphics Designer",
+    "industry": "Creative / Graphics / Designing",
+    "companyName": "Hamro Academy",
+    "location": "Sankhamul, New Baneshwor",
     "vacancy": 1
   },
   {
     "jobTitle": "Graphic Designer",
     "industry": "Creative / Graphics / Designing",
-    "companyName": "Innovate Nepal Group",
+    "companyName": "Tech Central",
     "location": "Kathmandu",
-    "vacancy": 1
+    "vacancy": 2
   },
   {
-    "jobTitle": "Barista",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Biology Teacher (Secondary-Level)",
-    "industry": "Teaching / Education",
-    "companyName": "Millsberry School",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Client Relation Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Vaishno Medisales",
+    "jobTitle": "UI/UX (Web) Designer",
+    "industry": "Creative / Graphics / Designing",
+    "companyName": "Tech Central",
     "location": "Kathmandu",
-    "vacancy": 1
+    "vacancy": 2
   },
   {
-    "jobTitle": "Accountant",
+    "jobTitle": "Chief Financial Officer",
     "industry": "Accounting / Finance",
-    "companyName": "Vaishno Medisales",
-    "location": "Kathmandu",
+    "companyName": "International Genesis Technology Nepal",
+    "location": "Myanmaar",
     "vacancy": 1
   },
   {
-    "jobTitle": "Associate IT Engineer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Cedar Gate Services",
+    "jobTitle": "Civil Engineer",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "International Genesis Technology Nepal",
+    "location": "Balkumari , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Program Coordinator (Academics)",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Global Academy of Tourism and Hospitality Education",
     "location": "Kathmandu, Nepal",
     "vacancy": 1
   },
   {
-    "jobTitle": "Associate IT Support Engineer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Logpoint Nepal",
-    "location": "Jawalakhel ,Lalitpur",
-    "vacancy": 1
+    "jobTitle": "Civil Engineer (Site/Drawing/Billing/Audit)",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Shailung Group of Companies",
+    "location": "Manbhawan, Lalitpur",
+    "vacancy": 8
   },
   {
     "jobTitle": "Marketing Executive",
     "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Shailung Group of Companies",
+    "location": "Manbhawan, Lalitpur",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Overseer",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Pashupati Kattha Mills",
+    "location": "Jeetpur- Simara, Bara",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "UI Developer (HTML/CSS)",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Digital Marketing Officer",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Wongchhu Peak Promotion",
+    "location": "Thamel",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "IT Service Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "Executive Search- merojob",
+    "location": "Thapathali",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Tech Community & Talent Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "WorldLink Communications",
+    "location": "Jawalakhel, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Medical Sales Officer",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Arya Pharma",
+    "location": "Kathmandu",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "Executive Director (E.D.)",
+    "industry": "NGO / INGO / Social work",
+    "companyName": "The Association of Chartered Accountants of Nepal",
+    "location": "Babarmahal, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Full Stack Engineer (JavaScript, Node, React)",
+    "industry": "IT & Telecommunication",
+    "companyName": "Bitskraft",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Software QA Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Bitskraft",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Java Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Bitskraft",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Engineer I (Fullstack)",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Senior Software Engineer (Backend)",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Senior Software Development Engineer in Test",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Software Development Engineer in Test II - (SDET II)",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Senior Engineer II (VueJS)",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Associate Lead Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Product Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "DevOps",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Scrum Master",
+    "industry": "IT & Telecommunication",
+    "companyName": "UBA Solutions",
+    "location": "Imadole, Lalitpur, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Copywriter/ Content Writer",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Max Lagence",
+    "location": "Kupondole, Patan, Central Development Region, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Reporter-English",
+    "industry": "Journalism / Editor / Media",
     "companyName": "New Business Age",
     "location": "Thapathali, Kathmandu",
     "vacancy": 2
   },
   {
-    "jobTitle": "Assistant Director of F&B",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "HR Manager",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Training Manager",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "F&B Supervisor",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
+    "jobTitle": "Accountant",
+    "industry": "IT & Telecommunication",
+    "companyName": "WhiteHat Engineering Inc.",
+    "location": "Kathmandu, Nepal. (will work for a US based Company)",
     "vacancy": 2
   },
   {
-    "jobTitle": "Finance Executive",
-    "industry": "Hospitality",
-    "companyName": "Kavya Resort and Spa",
-    "location": "Nagarkot",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Web Content Writer (+Editor)",
-    "industry": "Journalism / Editor / Media",
-    "companyName": "KPO and Company",
-    "location": "Remote",
-    "vacancy": 13
-  },
-  {
-    "jobTitle": "Software Engineer(.Net)",
+    "jobTitle": "Senior Software Engineer -Python",
     "industry": "IT & Telecommunication",
-    "companyName": "PRABHU Technology",
-    "location": "Kamal Pokhari, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Assistant Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "New Business Age",
+    "companyName": "Verisk Nepal",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Telesales Executives",
-    "industry": "Sales / Public Relations",
-    "companyName": "Infinity Tech Solutions and Management",
-    "location": "Kamalpokhari, Kathmandu",
-    "vacancy": 9
-  },
-  {
-    "jobTitle": "Vue.js Full Stack Developer",
+    "jobTitle": "Software Engineer- DBA",
     "industry": "IT & Telecommunication",
-    "companyName": "Dzango Technologies Limited",
-    "location": "Kupondole, Lalitpur",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Chinese Translator",
-    "industry": "Others",
-    "companyName": "Huaxin Cement Narayani",
-    "location": "Factory in Malekhu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Regional Sales Manager",
-    "industry": "Sales / Public Relations",
-    "companyName": "Digital Home International",
-    "location": "kathmandu",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Assistant Manager/Manager",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Digital Home International",
-    "location": "Thaiba, Lalitpur",
+    "jobTitle": "QA Automation Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Senior Officer- Store",
-    "industry": "Commercial / Logistics / Supply Chain",
-    "companyName": "Digital Home International",
-    "location": "Thaiba, Lalitpur",
-    "vacancy": 2
+    "jobTitle": "ETL Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
+    "vacancy": 1
   },
   {
-    "jobTitle": "Semi Qualified Chartered Accountant",
+    "jobTitle": "Senior / Mid-level .Net Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Creative UI Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Software Engineer- Java",
+    "industry": "IT & Telecommunication",
+    "companyName": "Verisk Nepal",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Account Manager",
     "industry": "Accounting / Finance",
-    "companyName": "Mountain Infra Company",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 2
+    "companyName": "Sankata Wine And Beverage Pvt Ltd",
+    "location": "Ratopul, Kathmandu",
+    "vacancy": 1
   },
   {
-    "jobTitle": "Social Media Manager",
+    "jobTitle": "Sales & Marketing Officer (Critical Care Consumable Product)",
     "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Riaan Trading Company",
-    "location": "Budhanilakantha",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Cornea Specialist",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali ,Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Software Engineer",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali ,Bhaktapur",
+    "companyName": "Maxim Incorporation Traders",
+    "location": "Field Visit as per requirement",
     "vacancy": 2
   },
   {
-    "jobTitle": "Administration and Finance Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Executive Search- merojob",
-    "location": "Kamaladi, Kathmandu",
-    "vacancy": 1
+    "jobTitle": "Sales and Marketing Officer",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "Maxim Incorporation Traders",
+    "location": "Kathmandu",
+    "vacancy": 3
   },
   {
-    "jobTitle": "Mechanical Technical Writer",
+    "jobTitle": "Field Service Engineer",
     "industry": "Construction / Engineering / Architects",
-    "companyName": "COPENNED",
-    "location": "Remote",
-    "vacancy": 3
+    "companyName": "Maxim Incorporation Traders",
+    "location": "Kathmandu",
+    "vacancy": 4
   },
   {
-    "jobTitle": "Sales Manager",
-    "industry": "Sales / Public Relations",
-    "companyName": "Petals Nepal",
-    "location": "Lalitpur, Nepal",
+    "jobTitle": "Private Sector Engagement Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Deloitte India",
+    "location": "Kathmandu, Out of Country",
     "vacancy": 1
   },
   {
-    "jobTitle": "Assistant - Store",
-    "industry": "Sales / Public Relations",
-    "companyName": "Digital Home International",
-    "location": "Thaiba, Lalitpur",
-    "vacancy": 3
+    "jobTitle": "Cyber Security Analyst",
+    "industry": "IT & Telecommunication",
+    "companyName": "Shikhar Organization Limited",
+    "location": "Maharajgunj",
+    "vacancy": 2
   },
   {
-    "jobTitle": "Executive Assistant",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "Claé Creatives",
+    "jobTitle": "Admission Officer",
+    "industry": "Teaching / Education",
+    "companyName": "Maple International Education",
+    "location": "Putalisadak, Kathmandu, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Civil Supervisor/Store Keeper",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "SKR Group",
+    "location": "Sanepa Height, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "NET Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "e-Zone International",
+    "location": "Mahalaxmisthan, Lalitpur, Nepal",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Sales Executive/Marketing Executive",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "e-Zone International",
+    "location": "Mahalaxmisthan, Lalitpur, Nepal",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "Software Engineer - JavaScript",
+    "industry": "IT & Telecommunication",
+    "companyName": "Fusemachines Nepal",
+    "location": "Kathmandu",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "QC Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Fusemachines Nepal",
+    "location": "Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "DevOps Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Fusemachines Nepal",
+    "location": "Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Project Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "Fusemachines Nepal",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
     "jobTitle": "Accountant",
     "industry": "Accounting / Finance",
-    "companyName": "Mangaldeep Multipurpose Pvt. Ltd.",
+    "companyName": "AlphaBetaTheta Technologies",
+    "location": "Kalanki",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Senior HR Officer",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "AlphaBetaTheta Technologies",
+    "location": "Kalanki, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Operations Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "AlphaBetaTheta Technologies",
+    "location": "Kalanki, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Finance Manager",
+    "industry": "Accounting / Finance",
+    "companyName": "World Distribution Nepal",
+    "location": "Kantipath, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Manager - Customer Engagement",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Head – Web Channel and Email Marketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Head – Social Media Marketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Manager - Telemarketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Manager - Customer Helpdesk",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Blogger",
+    "industry": "Journalism / Editor / Media",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Backend Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Frond End Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Quality Assurance",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "System Administrator",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Database Administrator",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Microsoft Dynamics 365 NAV Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Newgen IBPS Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "NIC Asia Bank",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Data Project Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "Cedar Gate Services",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Special Advisor (Natural Resource Management, Climate Resilience)",
+    "industry": "NGO / INGO / Social work",
+    "companyName": "Embassy Of Finland",
     "location": "Kathmandu, Nepal",
     "vacancy": 1
   },
   {
-    "jobTitle": "Sales Executive",
+    "jobTitle": "Customer Care Lead (Voice Outbound)",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Daraz",
+    "location": "Nepal Head Office",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Customer Care Associate - System & Process",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Daraz",
+    "location": "Nepal Head Office",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Head - Finance & Procurement",
+    "industry": "Accounting / Finance",
+    "companyName": "Saras Beverage",
+    "location": "Based out of Kathmandu HO",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Associate Software Engineers (Java)",
+    "industry": "IT & Telecommunication",
+    "companyName": "Cedar Gate Services",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Software Engineers (Java)",
+    "industry": "IT & Telecommunication",
+    "companyName": "Cedar Gate Services",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Project Chief Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "Hotel Shangri~La Pvt. Ltd",
+    "location": "Lazimpat, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Education Counselor",
+    "industry": "Teaching / Education",
+    "companyName": "Wrief Consultancy",
+    "location": "Kupondole 10, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Executive Assistant",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Shalimar Group",
+    "location": "kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Interior Designer",
+    "industry": "Architecture / Interior Designing",
+    "companyName": "Gharbazar.com",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "Marpha Trading Pvt. Ltd.",
+    "location": "Tangal, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Hydropower Project Manager",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Bajra Energy Ventures",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Sales and Marketing Executive",
+    "industry": "IT & Telecommunication",
+    "companyName": "Thakur International",
+    "location": "ChundeviMarg Maharajgunj , kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Graphic Designers Intern",
+    "industry": "Creative / Graphics / Designing",
+    "companyName": "Thakur International",
+    "location": "ChundeviMarg Maharajgunj , kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "TEACHER",
+    "industry": "Teaching / Education",
+    "companyName": "Best's Montessori Chain of Schools & Training Centre",
+    "location": "Lazimpat-Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Operation Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Bhoklagyo Food Delivery Service",
+    "location": "Gaushala, Rammandir",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Showroom Manager",
     "industry": "Sales / Public Relations",
-    "companyName": "IOT Incorporation",
+    "companyName": "Pioneer Trade Concern",
+    "location": "Kathmandu",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Junior Relationship Officer",
+    "industry": "Sales / Public Relations",
+    "companyName": "Khalti Digital Wallet",
+    "location": "Bakhundole, Lalitpur",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Junior Officer - Marketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Khalti Digital Wallet",
+    "location": "Bakhundole, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "Cynical Technology",
+    "location": "Maitidevi, Kathmandu, Central Development Region, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "Whats Next",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Office Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Whats Next",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Biomedical Engineer",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "Sudeep International",
+    "location": "Near UN park, Jwagal, Kupondole, Lalitpur",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Customer Sales Representative",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Danfe Works Enterprises Nepal",
+    "location": "Chakupat, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Admin and Inventory Officer",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Nourish Foods Pvt. Ltd.",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Inventory Officer",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Neelam Gahana",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "Neelam Gahana",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Sales Officer",
+    "industry": "Sales / Public Relations",
+    "companyName": "Neelam Gahana",
+    "location": "Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Social Media Officer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kandevsthan",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Junior/Mid PHP Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "ThemeGrill",
+    "location": "Basundhara-3, Kathmandu",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Blogger/Content Writer",
+    "industry": "IT & Telecommunication",
+    "companyName": "ThemeGrill",
+    "location": "Basundhara-3, Kathmandu (Work from Home and Office as well)",
+    "vacancy": 6
+  },
+  {
+    "jobTitle": "Civil/Electrical/ Mechanical Engineer",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Kasuwa Khola Hydropower Ltd (KKHPL)",
+    "location": "Dolakha",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Content Writer",
+    "industry": "Journalism / Editor / Media",
+    "companyName": "Bluedice Digital Marketing Agency",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "UI/UX Designer",
+    "industry": "Creative / Graphics / Designing",
+    "companyName": "Bluedice Digital Marketing Agency",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Full-Stack Java Boot Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Bluedice Digital Marketing Agency",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Digital Marketing Executive",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Bluedice Digital Marketing Agency",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Finance officer",
+    "industry": "Accounting / Finance",
+    "companyName": "Job Center",
+    "location": "bansbari,Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "People Operations Manager",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kupondole, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Graphic Designer",
+    "industry": "Creative / Graphics / Designing",
+    "companyName": "Unitech Media",
+    "location": "Chabahil, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Customer Support Representative",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Unitech Media",
+    "location": "Chabahil, Kathmandu",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Computer Teacher - Head Of Department (Secondary Level)",
+    "industry": "Teaching / Education",
+    "companyName": "Kathmandu Meridian School",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Block In-Charge (Primary and Secondary Level)",
+    "industry": "Teaching / Education",
+    "companyName": "Kathmandu Meridian School",
+    "location": "Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Java/ Android Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Magnus Consulting Group",
+    "location": "Mid Baneshwor, Kathmandu, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Web Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Magnus Consulting Group",
+    "location": "Mid Baneshwor, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "General Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Trishakti Cable Industries",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Client Manager Intern",
+    "industry": "Sales / Public Relations",
+    "companyName": "COPENNED",
+    "location": "Remote",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "International Manpower Recruitment",
     "location": "Kathmandu, Nepal",
     "vacancy": 2
+  },
+  {
+    "jobTitle": "HR & Admin Manager",
+    "industry": "Hospitality",
+    "companyName": "Sea links Travels & Tours",
+    "location": "Nagpokhari -1 Naxal , Kathmandu Nepal behind Marriott International Hotel",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Executive: Customer Service",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Sabre Travel Network Nepal",
+    "location": "opposite British Embassy, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Senior Executive: Sales & Marketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Sabre Travel Network Nepal",
+    "location": "opposite British Embassy, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Executive: Sales & Marketing",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Sabre Travel Network Nepal",
+    "location": "opposite British Embassy, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "IT Executive",
+    "industry": "IT & Telecommunication",
+    "companyName": "Sabre Travel Network Nepal",
+    "location": "Lainchaur, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "HR Officer",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "Big Mart",
+    "location": "Lazimpat",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "OPD Assistant",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "NIDAN Hospital",
+    "location": "Pulchwok , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Medical Officer",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "NIDAN Hospital",
+    "location": "Pulchwok , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Staff Nurse",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "NIDAN Hospital",
+    "location": "Pulchwok , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Store Keeper",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "NIDAN Hospital",
+    "location": "Pulchwok , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Reception/ Cash in-charge",
+    "industry": "Secretarial / Front Office / Data Entry",
+    "companyName": "NIDAN Hospital",
+    "location": "Pulchwok , Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Marketing Executive",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Aakarshan International",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Account Executive",
+    "industry": "Accounting / Finance",
+    "companyName": "Aakarshan International",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "HR Executive",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "Aakarshan International",
+    "location": "Shambhu Marga, Near Airport, Kathmandu",
+    "vacancy": 3
+  },
+  {
+    "jobTitle": "Senior Accountant/ Finance Officer",
+    "industry": "Accounting / Finance",
+    "companyName": "Heritage Publishers & Distributors",
+    "location": "Bhotahity, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Head - Investment Management",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Head - Research and Product",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Portfolio Manager",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Finance Officer",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Investment Associate",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Research Associate",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Investment Associate",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Business Analyst",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Research Analyst",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Product Analyst",
+    "industry": "Banking / Insurance /Financial Services",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Driver",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Garima Capital Limited",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Visa Officer",
+    "industry": "Hospitality",
+    "companyName": "Kantipur Holidays",
+    "location": "Lazimpat, Kathmandu, Nepal",
+    "vacancy": 3
   },
   {
     "jobTitle": "Finance Content Writer",
     "industry": "Accounting / Finance",
     "companyName": "ContentioLab",
-    "location": "New Baneshwor (Behind BICC and next to Ace Institute of Management)",
-    "vacancy": 50
+    "location": "New Baneshwor (Behind BICC and next to Ace Institue of Management)",
+    "vacancy": 30
   },
   {
     "jobTitle": "Technical Writer",
     "industry": "IT & Telecommunication",
     "companyName": "ContentioLab",
-    "location": "New Baneshwor (Behind BICC and next to Ace Institute of Management)",
+    "location": "New Baneshwor (Behind BICC and next to Ace Institue of Management)",
     "vacancy": 30
   },
   {
-    "jobTitle": "HR Manager",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "Yodha",
-    "location": "New Baneshwor",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Counselor",
-    "industry": "Teaching / Education",
-    "companyName": "Option Educational Consultancy",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Officer – Account & Admin",
+    "jobTitle": "Finance and Administrative Officer (FAO)",
     "industry": "Accounting / Finance",
-    "companyName": "CEDB Hydropower Development Company Limited",
-    "location": "Kathmandu",
+    "companyName": "Devworks International",
+    "location": "Birendranagar",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Construction Quality Supervisor (CQS)",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Devworks International",
+    "location": "Dailekh",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Sub-District Health Officer (SDHO)",
+    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
+    "companyName": "Devworks International",
+    "location": "Birendranagar",
     "vacancy": 2
   },
   {
-    "jobTitle": "Staff Nurse",
+    "jobTitle": "Health Integration (HI) Manager",
     "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali ,Bhaktapur",
+    "companyName": "Devworks International",
+    "location": "Birendra Nagar, Surkhet",
     "vacancy": 1
   },
   {
-    "jobTitle": "General Manager",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Rehabilitation Teacher/ supervisor",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sr. Finance/Account officer",
+    "jobTitle": "Finance Officer",
     "industry": "Accounting / Finance",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali ,Bhaktapur",
+    "companyName": "CREASION",
+    "location": "Baluwatar, Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Oculoplasty Surgeon with one year fellowship",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Officer Contract Execution & Assistance Department",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Metta Services Private Limited",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Counselor for Australia/ Canada",
-    "industry": "Teaching / Education",
-    "companyName": "Placements International Education & Migration Services",
-    "location": "Kamaladi, Kathmandu",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Intern",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Prep10",
-    "location": "Pearls Foundation Office, Kupondole, Lalitpur",
-    "vacancy": 6
-  },
-  {
-    "jobTitle": "Admission Counselor",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Prep10",
-    "location": "Pearls Foundation Office, Kupondole, Lalitpur",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Academic and Research Assistant",
-    "industry": "Research and Development",
-    "companyName": "B.P. Eye Foundation(BPEF)",
-    "location": "Lokanthali ,Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Invoicing and AR (Account Receivable) Specialist",
-    "industry": "Accounting / Finance",
-    "companyName": "K&A Engineering Consulting P.C",
-    "location": "Sanepa, Lalitpur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "HR & Administration Manager",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "K&A Engineering Consulting P.C",
-    "location": "Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales & Marketing Manager",
-    "industry": "Sales / Public Relations",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Front Desk Officer",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Technical Support Executive/ Marketing",
-    "industry": "IT & Telecommunication",
-    "companyName": "Planet Earth Solutions",
-    "location": "Lalitpur, Satdobato",
-    "vacancy": 15
-  },
-  {
-    "jobTitle": "Assistant Director of International Admissions",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Wiseadmit Technology",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Product Sales Leader",
-    "industry": "Sales / Public Relations",
-    "companyName": "Nimble Infosys",
-    "location": "Tinkune , Kathmandu",
-    "vacancy": 5
-  },
-  {
-    "jobTitle": "Restaurant Manager",
+    "jobTitle": "Travel Supervisor",
     "industry": "Hospitality",
-    "companyName": "Mamagoto Nepal",
-    "location": "Lazimpat, Kathmandu",
+    "companyName": "BookingWhizz",
+    "location": "Jawalakhel, Lalitpur",
     "vacancy": 1
   },
   {
-    "jobTitle": "Account Manager",
-    "industry": "Accounting / Finance",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "Personal Secretary",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Liaison & PRO",
-    "industry": "Sales / Public Relations",
-    "companyName": "Kasuwa Khola Hydropower Ltd (KKHPL)",
-    "location": "Rukum/Sankhuwasabha",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Software Developer (PHP/CI)",
-    "industry": "IT & Telecommunication",
-    "companyName": "MiDas Technologies",
-    "location": "Panipokhari, Kathmandu, Nepal",
-    "vacancy": 20
-  },
-  {
-    "jobTitle": "Senior Technical Support Officer",
-    "industry": "IT & Telecommunication",
-    "companyName": "MiDas Technologies",
-    "location": "Dharan , Chitwan , Kathmandu",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Sales & Marketing Associate",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "MiDas Technologies",
-    "location": "Janakpur , Kathmandu , Butwal ,Birendranagar ,Godawari",
-    "vacancy": 10
-  },
-  {
-    "jobTitle": "Documentation officer",
-    "industry": "Teaching / Education",
-    "companyName": "Boomerang International Educational Services",
-    "location": "Putalisadak - 29, Kathmandu",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Marketing/Sales Executive",
+    "jobTitle": "Marketing Executive",
     "industry": "Marketing / Advertising / Customer Service",
     "companyName": "Tulips Technologies",
     "location": "New Baneshwor, Kathmandu",
     "vacancy": 5
   },
   {
-    "jobTitle": "Scanner Technician",
+    "jobTitle": "Bidding Officer",
+    "industry": "Construction / Engineering / Architects",
+    "companyName": "Vedanshee Infrastructure",
+    "location": "Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Corporate Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Job Center",
+    "location": "Bansbari,Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "WordPress Developer",
     "industry": "IT & Telecommunication",
-    "companyName": "Tech One Global",
+    "companyName": "Cynical Technology",
+    "location": "Maitidevi, Kathmandu, Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Social Media Handler",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Annapurna Aroma Company",
     "location": "Kathmandu, Nepal",
     "vacancy": 1
   },
   {
-    "jobTitle": "Accountant for Showroom",
-    "industry": "Accounting / Finance",
-    "companyName": "National Electric and Building Solution Pvt. Ltd.",
-    "location": "Tahagali, Sundhara, Kathmndu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Software Engineer",
+    "jobTitle": "Java Developer",
     "industry": "IT & Telecommunication",
-    "companyName": "HLE Nepal",
-    "location": "Lalitpur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Business Development Associate",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Doko Recyclers",
-    "location": "Sanothimi, Bhaktapur",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Regional Technical Lead",
-    "industry": "IT & Telecommunication",
-    "companyName": "Dish Media Network",
-    "location": "Butwal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Assistant Account Manager",
-    "industry": "Accounting / Finance",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 4
-  },
-  {
-    "jobTitle": "HR Executive",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "RK Trade International",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Program Manager",
-    "industry": "NGO / INGO / Social work",
-    "companyName": "Samaanta Foundation",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Associate",
-    "industry": "Sales / Public Relations",
-    "companyName": "Potala Guest House",
-    "location": "Chhetrapati Thamel Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Trek Sales and Marketing Manager",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Gurkha Encounters",
-    "location": "Baluwatar, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "PHP Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Aarya Technology & Management",
-    "location": "Lazimpath , Kathmandu",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Executive Assistant to the Managing Director",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Zuleika by Gahana Griha",
-    "location": "Kamaladi, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Social Media Associate",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Zuleika by Gahana Griha",
-    "location": "Kamaladi, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Graphic Designer",
-    "industry": "Creative / Graphics / Designing",
-    "companyName": "Music Nepal",
-    "location": "Anamnagar, Kathmandu, Central Development Region, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Marketing/Assistant Junior",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "SNS Co-Operative",
-    "location": "Dillibazar , Thamel, Battisputali , Narayanghat , Butwal , Sundarijhal , Bouddha , Newroad",
-    "vacancy": 40
-  },
-  {
-    "jobTitle": "Branch Manager/Assistant Branch Manager",
-    "industry": "Banking / Insurance /Financial Services",
-    "companyName": "SNS Co-Operative",
-    "location": "Boudha",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Operations Management Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "EB Pearls Group",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Corporate /Business Reporter",
-    "industry": "Journalism / Editor / Media",
-    "companyName": "Digital House Nepal",
-    "location": "Lalitpur, Chakupat",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Desk Editor (English/Nepali)",
-    "industry": "Journalism / Editor / Media",
-    "companyName": "Digital House Nepal",
-    "location": "kathmandu",
-    "vacancy": 3
-  },
-  {
-    "jobTitle": "Multimedia Coordinator/Digital Media Associate",
-    "industry": "Journalism / Editor / Media",
-    "companyName": "Digital House Nepal",
-    "location": "kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Service Engineer (Healthcare/Medical)",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "Aarogya Medi Tech",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Principal",
-    "industry": "Teaching / Education",
-    "companyName": "Universal College Preparatory School",
-    "location": "Tudaldevi Marg, Kathmandu 44600",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Executive – Finance/Admin",
-    "industry": "Accounting / Finance",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Marketing Manager",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Web Trading Concern",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Marketing officer",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Web Trading Concern",
-    "location": "kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Assessment/ Administration Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Brihaspati Vidyasadan",
-    "location": "Naxal, Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Senior & Mid Level Laravel Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Neputer Tech",
-    "location": "Narefat, Kathandu",
-    "vacancy": 5
-  },
-  {
-    "jobTitle": "Project Coordinator/ Team Leader",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Sahara Nepal",
-    "location": "Birtamod, Jhapa",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Accounts and Admin Officer",
-    "industry": "Accounting / Finance",
-    "companyName": "Tavisi",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Logistics and Client Support Officer",
-    "industry": "Commercial / Logistics / Supply Chain",
-    "companyName": "Tavisi",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "IT and Admin Officer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Tavisi",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Business Development Officer",
-    "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Alfa Beta Institute",
-    "location": "Kathmandu",
+    "companyName": "Yagiten Pvt. Ltd.",
+    "location": "Nepal & India",
     "vacancy": 10
   },
   {
-    "jobTitle": "Counselor/ Sr. Counselor",
+    "jobTitle": "Dot Net Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "Yagiten Pvt. Ltd.",
+    "location": "Nepal & India",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "Chef",
+    "industry": "Hospitality",
+    "companyName": "Begnas Lake Resorts and Villa",
+    "location": "Pokhara",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Consultant-Itinerant Teacher",
+    "industry": "NGO / INGO / Social work",
+    "companyName": "Autism Care Chitwan Society",
+    "location": "Bharatpur 10, Balmandir road, Chitwan",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Creative Writer",
+    "industry": "Journalism / Editor / Media",
+    "companyName": "Pandora Group Of Companies",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 20
+  },
+  {
+    "jobTitle": "Computer Operator / Lab Assistant",
+    "industry": "Teaching / Education",
+    "companyName": "Trinity International College",
+    "location": "Dillibazar, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Science Teacher (Secondary Level)",
+    "industry": "Teaching / Education",
+    "companyName": "Babylon National School",
+    "location": "Shantinagar, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Front Office Manager",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "SkillsFactory Nepal",
+    "location": "Dillibazar-30, Kathmandu",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "TOEFL/ SAT Instructor",
     "industry": "Teaching / Education",
     "companyName": "Alfa Beta Institute",
     "location": "New Baneshwor",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Ticketing & Reservation Officer",
-    "industry": "Hospitality",
-    "companyName": "Bonjoy",
-    "location": "Hattisar, Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "IT Support Assistant",
-    "industry": "IT & Telecommunication",
-    "companyName": "Digital Home International",
-    "location": "Thaiba, Lalitpur",
+    "jobTitle": "Store Incharge",
+    "industry": "General Mgmt. / Administration / Operations",
+    "companyName": "Burger Group",
+    "location": "Nayabasti, Bouddha",
     "vacancy": 1
-  },
-  {
-    "jobTitle": "Sales Manager",
-    "industry": "Sales / Public Relations",
-    "companyName": "BnB Group Nepal",
-    "location": "Chaya Centre, Thamel",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Sales Receptionist",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "BnB Group Nepal",
-    "location": "Chaya Centre, Thamel",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Business Development Officer",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "Impulse Consultants",
-    "location": "kathmandu Dallu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Civil Engineer (Structural Designer)",
-    "industry": "Construction / Engineering / Architects",
-    "companyName": "Impulse Consultants",
-    "location": "Dallu Kathamndu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Accountant",
-    "industry": "Accounting / Finance",
-    "companyName": "Sungava Vet Pharma",
-    "location": "Kalanki",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Data Entry Operator",
-    "industry": "Secretarial / Front Office / Data Entry",
-    "companyName": "IIMI Asia Pacific",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 500
   },
   {
     "jobTitle": "Marketing Officer",
-    "industry": "Sales / Public Relations",
-    "companyName": "Reliance Trade Link",
-    "location": "Banasthali",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Business Development Officer",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Quantum Med Pvt. Ltd.",
-    "location": "Baluwatar, Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Junior Designer/Architect",
-    "industry": "Architecture / Interior Designing",
-    "companyName": "Shiv Shakti Group",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Accountant",
-    "industry": "Accounting / Finance",
-    "companyName": "New Technical Waterproofing and Infra Rehabilitation",
-    "location": "Kupondole, Lalitpur, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Layout Designer",
-    "industry": "Creative / Graphics / Designing",
-    "companyName": "Kamana News Publications",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sr. Marketing Executive",
     "industry": "Marketing / Advertising / Customer Service",
-    "companyName": "Kamana News Publications",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Management Trainee",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "ThinkMove Solution",
-    "location": "Kathmandu, Nepal",
+    "companyName": "Burger Group",
+    "location": "Nayabasti, Bouddha",
     "vacancy": 1
   },
   {
-    "jobTitle": "Business Development Manager- International",
-    "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "ThinkMove Solution",
-    "location": "Kathmandu, Nepal",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Android Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "EBPearls",
-    "location": "Kandevsthan",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Node.js Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "EBPearls",
-    "location": "Kandevtasthan, Kupondole, Lalitpur",
-    "vacancy": 7
-  },
-  {
-    "jobTitle": "Business Analyst",
-    "industry": "IT & Telecommunication",
-    "companyName": "EBPearls",
+    "jobTitle": "Talent Acquisition Specialist",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "InfoDevelopers",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Wordpress Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "EBPearls",
-    "location": "Kandevtasthan, Kupondole, Lalitpur",
+    "jobTitle": "Chief Finance Officer",
+    "industry": "Accounting / Finance",
+    "companyName": "Biomed International",
+    "location": "Gairidhara, Naxal",
     "vacancy": 1
   },
   {
@@ -1127,11 +1281,18 @@
     "vacancy": 2
   },
   {
-    "jobTitle": "IOS Developer",
+    "jobTitle": "React Developer",
     "industry": "IT & Telecommunication",
     "companyName": "EBPearls",
-    "location": "Kandevtasthan, Kupondole, Lalitpur",
-    "vacancy": 4
+    "location": "Lalitpur, Nepal",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Flutter Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kathmandu",
+    "vacancy": 1
   },
   {
     "jobTitle": "Quality Analyst",
@@ -1141,178 +1302,136 @@
     "vacancy": 3
   },
   {
-    "jobTitle": "Flutter Developer",
+    "jobTitle": "Node.js Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kandevtasthan, Kupondole, Lalitpur",
+    "vacancy": 7
+  },
+  {
+    "jobTitle": "Android Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kandevsthan",
+    "vacancy": 2
+  },
+  {
+    "jobTitle": "Wordpress Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kandevtasthan, Kupondole, Lalitpur",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "IOS Developer",
+    "industry": "IT & Telecommunication",
+    "companyName": "EBPearls",
+    "location": "Kandevtasthan, Kupondole, Lalitpur",
+    "vacancy": 4
+  },
+  {
+    "jobTitle": "Business Analyst",
     "industry": "IT & Telecommunication",
     "companyName": "EBPearls",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "React Developer",
+    "jobTitle": "Area Sales Associates",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "Agappe Diagnostics Switzerland GmbH",
+    "location": "Eastern Nepal (Biratnagar+Itahari+Dharan+Damak+Birtamode+Saptari+Siraha+Udayapur)",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Senior Research Officer (SRO)",
+    "industry": "Teaching / Education",
+    "companyName": "Global College International",
+    "location": "Mid Baneshwore, Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Accountant",
+    "industry": "Accounting / Finance",
+    "companyName": "C.L.K. & Associates",
+    "location": "Kathmandu",
+    "vacancy": 5
+  },
+  {
+    "jobTitle": "Sr. HR Manager",
+    "industry": "Human Resource /Org. Development",
+    "companyName": "Himgiri Hygiene",
+    "location": "Biratnagar + Kathmandu",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Brand Officer",
+    "industry": "Sales / Public Relations",
+    "companyName": "Himgiri Hygiene",
+    "location": "Kathmandu + Biratnagar",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Customer Support Executive",
     "industry": "IT & Telecommunication",
-    "companyName": "EBPearls",
-    "location": "Lalitpur, Nepal",
+    "companyName": "Medipro Computers",
+    "location": "Chinatown, Sundhara",
+    "vacancy": 10
+  },
+  {
+    "jobTitle": "Senior Sales Executive",
+    "industry": "Sales / Public Relations",
+    "companyName": "Vaishali Trade Links",
+    "location": "Stationed at Kathmandu with periodic visits all over Nepal",
+    "vacancy": 1
+  },
+  {
+    "jobTitle": "Software Development Engineer",
+    "industry": "IT & Telecommunication",
+    "companyName": "OM SAI TRADE CONCERN",
+    "location": "Kathmandu-10, Milanchowk",
     "vacancy": 2
   },
   {
-    "jobTitle": "Quality Assurance Automation",
-    "industry": "IT & Telecommunication",
-    "companyName": "AlphaBetaTheta Technologies",
-    "location": "kalanki kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Flutter Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Young Minds",
-    "location": "ShantiNagar, New Baneshwor, Kathmandu",
-    "vacancy": 3
+    "jobTitle": "Account Executive",
+    "industry": "Accounting / Finance",
+    "companyName": "OM SAI TRADE CONCERN",
+    "location": "Kathmandu",
+    "vacancy": 1
   },
   {
     "jobTitle": "Senior Software Engineer",
     "industry": "IT & Telecommunication",
-    "companyName": "VAJRATECH",
+    "companyName": "OM SAI TRADE CONCERN",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "HR Assistant",
-    "industry": "Human Resource /Org. Development",
-    "companyName": "Yodha",
-    "location": "New Baneshwor",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Kitchen Supervisor",
-    "industry": "Hospitality",
-    "companyName": "American Mission Association",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Head-Software Development",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
+    "jobTitle": "Digital Media Expert",
+    "industry": "Marketing / Advertising / Customer Service",
+    "companyName": "OM SAI TRADE CONCERN",
     "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Java Developer (Full Stack)",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Junior Java Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Jr. iOS Developer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "QA Engineer",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Sr. Analyst - Innovation",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Analyst - Innovation",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Officer-Strategy & Research",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Security Analyst (SOC)",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Executive - Risk & Compliance",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Technical Support (Infrastructure)",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Support Analyst/Executive",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Business Development Executive",
-    "industry": "IT & Telecommunication",
-    "companyName": "Nepal Clearing House",
-    "location": "Kathmandu",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Sales & Service Engineer",
+    "jobTitle": "Business Development Officer",
     "industry": "Sales / Public Relations",
-    "companyName": "Corofin",
-    "location": "Kathmandu, Nepal",
+    "companyName": "Dish Media Network",
+    "location": "Kathmandu",
     "vacancy": 1
   },
   {
-    "jobTitle": "Interior Designer/Jr. Architecture/Visualizer",
-    "industry": "Creative / Graphics / Designing",
-    "companyName": "ByProxy Nepal (Blinqlab)",
-    "location": "Kumaripati, Lalitpur",
-    "vacancy": 2
-  },
-  {
-    "jobTitle": "Tourism Officer",
+    "jobTitle": "Admin Supervisor",
     "industry": "General Mgmt. / Administration / Operations",
-    "companyName": "Deepdev Business Advisors",
-    "location": "Kathmandu",
+    "companyName": "Dish Media Network",
+    "location": "Nepalgunj",
     "vacancy": 1
   },
   {
-    "jobTitle": "Software Architect",
-    "industry": "IT & Telecommunication",
-    "companyName": "Incessant Rain",
-    "location": "Chhauni ,Kathmandu",
-    "vacancy": 1
-  },
-  {
-    "jobTitle": "Senior Marketing Executive (Medical Representative)",
-    "industry": "Healthcare / Pharma / Biotech / Medical / R&D",
-    "companyName": "Troika International",
-    "location": "Kathmandu",
-    "vacancy": 2
+    "jobTitle": "Data Entry Operator",
+    "industry": "Secretarial / Front Office / Data Entry",
+    "companyName": "IIMI Asia Pacific",
+    "location": "Kathmandu, Nepal",
+    "vacancy": 500
   }
 ]
