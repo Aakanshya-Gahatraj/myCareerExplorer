@@ -2,9 +2,10 @@
 <html>
   <head>
     <title>MyCareerExplorer | Locate Opportunities</title>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+    <script src="https://d3js.org/d3.v4.js" charset="utf-8"></script>
+
     <link rel="stylesheet" href="..\css\main.css" />
-    <script src="..\js\fetchingTrends.js"></script>
   </head>
   <body class="mapBody">
     <div class="navBar">
@@ -22,8 +23,10 @@
         <h1 class="titleHead"></h1>
         <h3 class="subHead" >📈 Trend Analysis</h3>
       </p>
-      <div id="svganchor"></div>
-      <div class="tooltip"></div>
+      <div id="trendChart"></div>
+      <!-- <div class="tooltip"></div> -->
     </div>
+    <script src="../js/fetchingTrends.js"></script>
+
   </body>
 </html>

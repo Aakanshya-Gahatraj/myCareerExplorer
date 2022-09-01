@@ -688,7 +688,8 @@ footer {
 
 .trendCon {
   margin: 2rem 0rem;
-  padding: 3rem;
+  padding: 3rem 0rem;
+  padding-left: 4rem;
   border: none;
   border-radius: 25px;
   background-color: white;
@@ -702,3 +703,7 @@ footer {
 .subHead {
   font-style: italic;
 }
+
+/* #trendChart{
+
+} */
