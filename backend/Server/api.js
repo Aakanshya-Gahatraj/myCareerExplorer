@@ -63,14 +63,14 @@ const run = async () => {
       },
     ],
     rootPath: "/admin",
+    loginPath: "/admin/login",
     logoutPath: "http://127.0.0.1:5500/frontend/html/index.html",
     locale,
     branding: {
       softwareBrothers: false,
       logo: "",
-      // logo: "https://warwick.ac.uk/services/careers/findingwork/international/teamwork.png",
-      // logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyt1KqlOCdaJP4YsTtJyQxE_veQb-sBceMg&usqp=CAU",
       companyName: "🌍 MyCareerExplorer",
+      rootPath: "http://localhost:3000/admin/resources/companyInformation",
     },
   });
 

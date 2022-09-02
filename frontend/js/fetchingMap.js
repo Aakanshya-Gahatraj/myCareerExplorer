@@ -51,11 +51,20 @@ async function showData(districtDict, max) {
     .range(["#239B56", "#7DCEA0"]);
 
   // Creating SVG in concerend div of html to append map
+  const svgContainer = document.getElementById("svganchor");
+  if (svgContainer.hasChildNodes()) {
+    const map = document.getElementById("map");
+    if (map) {
+      svgContainer.removeChild(map);
+    }
+  }
   const canvas = d3
     .select("#svganchor")
+    // .remove("svg")
     .append("svg")
     .attr("width", w)
-    .attr("height", h);
+    .attr("height", h)
+    .attr("id", "map");
 
   // Legends
   canvas

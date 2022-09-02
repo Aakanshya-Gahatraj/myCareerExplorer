@@ -14,6 +14,8 @@ async function showData(id) {
   console.log(id);
   const data = await getIndustryData(id);
   console.log({ data });
+  const industryCategoryName = document.querySelector("#industryCatName");
+  industryCategoryName.innerHTML = id.replace(/%2F/g, "/");
   const jobsContainer = document.querySelector(".jobs-grid-container");
   data.forEach((element) => {
     const gridItem = document.createElement("div");

@@ -79,7 +79,7 @@ function showData(jobName) {
     .append("text")
     .attr("x", 250)
     .attr("y", 580)
-    .text("Demand during the months of 2022")
+    .text(`Demand for ${jobName}s from June to Sep 2022`)
     .style("font-size", "15px")
     .attr("alignment-baseline", "middle");
 

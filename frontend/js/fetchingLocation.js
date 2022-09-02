@@ -23,7 +23,7 @@ async function showData(id) {
   console.log(totalVac);
   console.log(actualData);
   const btnElement = document.querySelector(".locButton");
-  btnElement.innerHTML = `${totalVac} Vacancies`;
+  btnElement.innerHTML = `${id}: ${totalVac} Vacancies`;
   const jobsContainer = document.querySelector(".jobs-grid-container");
 
   actualData.forEach((element) => {

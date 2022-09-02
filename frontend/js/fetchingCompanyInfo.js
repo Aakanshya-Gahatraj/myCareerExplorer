@@ -38,18 +38,26 @@ async function viewJobs(companyName) {
   console.log("jobsdata: ", jobsData);
   console.log("jobsdata length: ", jobsData.length);
 
+  const noJobElement = document.getElementById("no-job");
+  const jobSubContainer = document.getElementById("jobs-sub-container");
+
   if (jobsData.length == 0) {
+    if (noJobElement) return;
     const itemsContainer = document.querySelector(".compInfoJobs");
     const items = document.createElement("div");
     items.className = "compInfoJobItems";
+    items.id = "no-job";
     const noJobs = document.createElement("h4");
     noJobs.innerHTML = "No Jobs Yet or Expired!";
     items.appendChild(noJobs);
     itemsContainer.appendChild(items);
     // console.log("Executed!");
   } else {
+    if (jobSubContainer) return;
     jobsData.forEach((el) => {
       const itemsContainer = document.querySelector(".compInfoJobs");
+      const itemsSubContainer = document.createElement("div");
+      itemsSubContainer.id = "jobs-sub-container";
       const items = document.createElement("div");
       items.className = "compInfoJobItems";
       const jobName = document.createElement("h4");
@@ -62,7 +70,8 @@ async function viewJobs(companyName) {
       items.appendChild(jobName);
       items.appendChild(jobLocation);
       items.appendChild(jobVac);
-      itemsContainer.appendChild(items);
+      itemsSubContainer.appendChild(items);
+      itemsContainer.appendChild(itemsSubContainer);
     });
   }
   // document
