@@ -9,7 +9,7 @@ Some of the major deliverables of the web application are;
 * Opportunity Map and 
 * Business’ Information. 
 
-The system automatically scrapes job portals every Sunday through puppeteer and node cron. 
+The system gets the data by automatically scraping a Nepali job portal every Sunday through puppeteer and node cron. 
 The scraped data then gets stored in MongoDB and later used for data analysis and visualization through D3.js.
 
 # A look of the application
