@@ -1,6 +1,6 @@
 # MyCareerExplorer
 
-It is a web application providing real-time labor market information (RT-LMI) along with visualization such that it facilitates career exploration of students in Nepal. 
+It is a web application providing labor market information along with visualization such that it facilitates career exploration of students in Nepal. 
 Some of the major deliverables of the web application are;
 
 * Job’s Information, 
